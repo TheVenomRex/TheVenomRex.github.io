@@ -5,7 +5,7 @@
     <title>Int he act we Remember</title>
 
         <!-- Load external CSS styles -->
-        <link rel="stylesheet" href="styles.css">
+        <!--<link rel="stylesheet" href="styles.css">-->
     <style>
     /* creating a backround by generating a string with .js,
     // then making a dynamic animation with .js on css
@@ -17,46 +17,50 @@
     // when updated, a numbers background goes red, then fades
     */
 
-    body { background-color: #efefef; // what on earth is wrong here
+    body {
+	z-index:1;
+	background-color: #000000;
     }
-
     p {
 	color:white;
     }
     #custom-background { 
-    z-index:-1;
-    posistion:absolute;
-    left:0px;
+	position:absolute;
     top:0px;
+    left:0px;
+    z-index:-1;
 
 	color: red;
 	background-color: black;
 	text-align: center;
-    margin-left:auto;
-    margin-right:auto;
     }
-    h1 { 
-	background-color: #ff6600;
+    .backing {
+	background-color:#efefef;
+    opacity:0.8;
+    }
+    .backing p{
+	color:#efefef;
+    }
+    h2 { 
     text-align:center;
     }
-
     /*#demo:hover {
 	color:#00008b;
     background-color:#00008b;
    
     }*/
 
-        </style>
+     </style>
 </head>
 
 <body>
-    <p id="custom-background">Hello</p>
-    <h1>My awesome space</h1>
-    <h2>growing pains</h2>
+    <div class="backing"><p id="custom-background">Hello</p></div>
+    <div class="backing"><h1>My awesome space</h1></div>
+    <div class="backing"><h2>growing pains</h2></div>
     <p>BEHOLD!</p>
         
     <!-- Load external JavaScript -->
-    <script src="scripts.js">
+    <script> /*src="scripts.js">*/
              var x= "";
             let row, col;
             for (let i=1, row= 50,col=row ;i<(row*col+1);i++) {
