@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Int he act we Remember</title>
+
+        <!-- Load external CSS styles -->
+        <link rel="stylesheet" href="styles.css">
+    <style>
+    /* creating a backround by generating a string with .js,
+    // then making a dynamic animation with .js on css
+    // need(?) JQurry for the markdown. 
+    // a div with id for the background
+    // -- Animation
+    // endless random numbers, constant with.
+    // a random intervel gets updated every second, distuputed randomly
+    // when updated, a numbers background goes red, then fades
+    */
+
+    body { background-color: #efefef; // what on earth is wrong here
+    }
+
+    p {
+	color:white;
+    }
+    #custom-background { 
+    z-index:-1;
+    posistion:absolute;
+    left:0px;
+    top:0px;
+
+	color: red;
+	background-color: black;
+	text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    }
+    h1 { 
+	background-color: #ff6600;
+    text-align:center;
+    }
+
+    /*#demo:hover {
+	color:#00008b;
+    background-color:#00008b;
+   
+    }*/
+
+        </style>
+</head>
+
+<body>
+    <p id="custom-background">Hello</p>
+    <h1>My awesome space</h1>
+    <h2>growing pains</h2>
+    <p>BEHOLD!</p>
+        
+    <!-- Load external JavaScript -->
+    <script src="scripts.js">
+             var x= "";
+            let row, col;
+            for (let i=1, row= 50,col=row ;i<(row*col+1);i++) {
+	            x += Math.floor(Math.random() * 10)+ " ";
+  	            if (i%col==0) {
+                x+="<br>";
+                }
+            }   
+
+            document.getElementById("custom-background").innerHTML = x;
+            
+        </script>
+        
+</html>
