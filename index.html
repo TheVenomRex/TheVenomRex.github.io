@@ -43,6 +43,12 @@
     }
     h2 { 
     text-align:center;
+    animation-name: firstTest;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    }
+    #custom-background:hover{
+        display: none;
     }
     /*#demo:hover {
 	color:#00008b;
@@ -50,6 +56,37 @@
    
     }*/
 
+    #back-table{
+        color: aquamarine;
+        width: 100%;
+       /* height: ; I'll get back to this */
+        table-layout: auto;
+        
+        animation-name: firstTest;
+        animation-duration: 10s; 
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function:ease-out ;
+    }
+
+    @keyframes firstTest {
+        from{
+            background-color: hsla(60,100%,50%,1);
+            color: hsla(60,100%,50%,1);
+            
+        }
+        20%{
+            background-color: hsla(30,100%,50%,0);
+        }
+        to{
+            
+            color: hsla(30,100%,50%,1);
+        }
+    }
+    .row-3 .col-7 {
+        border: 1px solid;
+        border-color:chartreuse;
+    }
      </style>
 </head>
 
@@ -58,10 +95,110 @@
     <div class="backing"><h1>My awesome space</h1></div>
     <div class="backing"><h2>growing pains</h2></div>
     <p>BEHOLD!</p>
-        
+        <table id="back-table">
+            <tr class="row-1">
+                <td class="col-1">col 1</td>
+                <td class="col-2">col 2</td>
+                <td class="col-3">col 3</td>
+                <td class="col-4">col 4</td>
+                <td class="col-5">col 5</td>
+                <td class="col-6">col 6</td>
+                <td class="col-7">col 7</td>
+                <td class="col-8">col 8</td>
+                <td class="col-9">col 9</td>
+            </tr>
+            <tr class="row-2">
+                <td class="col-1">col 1</td>
+                <td class="col-2">col 2</td>
+                <td class="col-3">col 3</td>
+                <td class="col-4">col 4</td>
+                <td class="col-5">col 5</td>
+                <td class="col-6">col 6</td>
+                <td class="col-7">col 7</td>
+                <td class="col-8">col 8</td>
+                <td class="col-9">col 9</td>
+            </tr>
+            <tr class="row-3">
+                <td class="col-1">col 1</td>
+                <td class="col-2">col 2</td>
+                <td class="col-3">col 3</td>
+                <td class="col-4">col 4</td>
+                <td class="col-5">col 5</td>
+                <td class="col-6">col 6</td>
+                <td class="col-7">col 7</td>
+                <td class="col-8">col 8</td>
+                <td class="col-9">col 9</td>
+            </tr>
+            <tr class="row-4">
+                <td class="col-1">col 1</td>
+                <td class="col-2">col 2</td>
+                <td class="col-3">col 3</td>
+                <td class="col-4">col 4</td>
+                <td class="col-5">col 5</td>
+                <td class="col-6">col 6</td>
+                <td class="col-7">col 7</td>
+                <td class="col-8">col 8</td>
+                <td class="col-9">col 9</td>
+            </tr>
+            <tr class="row-5">
+                <td class="col-1">col 1</td>
+                <td class="col-2">col 2</td>
+                <td class="col-3">col 3</td>
+                <td class="col-4">col 4</td>
+                <td class="col-5">col 5</td>
+                <td class="col-6">col 6</td>
+                <td class="col-7">col 7</td>
+                <td class="col-8">col 8</td>
+                <td class="col-9">col 9</td>
+            </tr>
+            <tr class="row-6">
+                <td class="col-1">col 1</td>
+                <td class="col-2">col 2</td>
+                <td class="col-3">col 3</td>
+                <td class="col-4">col 4</td>
+                <td class="col-5">col 5</td>
+                <td class="col-6">col 6</td>
+                <td class="col-7">col 7</td>
+                <td class="col-8">col 8</td>
+                <td class="col-9">col 9</td>
+            </tr>
+            <tr class="row-7">
+                <td class="col-1">col 1</td>
+                <td class="col-2">col 2</td>
+                <td class="col-3">col 3</td>
+                <td class="col-4">col 4</td>
+                <td class="col-5">col 5</td>
+                <td class="col-6">col 6</td>
+                <td class="col-7">col 7</td>
+                <td class="col-8">col 8</td>
+                <td class="col-9">col 9</td>
+            </tr>
+            <tr class="row-8">
+                <td class="col-1">col 1</td>
+                <td class="col-2">col 2</td>
+                <td class="col-3">col 3</td>
+                <td class="col-4">col 4</td>
+                <td class="col-5">col 5</td>
+                <td class="col-6">col 6</td>
+                <td class="col-7">col 7</td>
+                <td class="col-8">col 8</td>
+                <td class="col-9">col 9</td>
+            </tr>
+            <tr class="row-9">
+                <td class="col-1">col 1</td>
+                <td class="col-2">col 2</td>
+                <td class="col-3">col 3</td>
+                <td class="col-4">col 4</td>
+                <td class="col-5">col 5</td>
+                <td class="col-6">col 6</td>
+                <td class="col-7">col 7</td>
+                <td class="col-8">col 8</td>
+                <td class="col-9">col 9</td>
+            </tr>
+        </table>
     <!-- Load external JavaScript -->
     <script> /*src="scripts.js">*/
-             var x= "";
+            /* var x= "";
             let row, col;
             for (let i=1, row= 50,col=row ;i<(row*col+1);i++) {
 	            x += Math.floor(Math.random() * 10)+ " ";
@@ -71,7 +208,7 @@
             }   
 
             document.getElementById("custom-background").innerHTML = x;
-            
+            */
         </script>
         
 </html>
