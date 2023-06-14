@@ -94,7 +94,7 @@
     <div class="backing"><p id="custom-background">Hello</p></div>
     <div class="backing"><h1>My awesome space</h1></div>
     <div class="backing"><h2>growing pains</h2></div>
-    <p>BEHOLD!</p>
+    <p id="tick">BEHOLD!</p>
         <table id="back-table">
             <tr class="row-1">
                 <td class="col-1">col 1</td>
@@ -206,9 +206,21 @@
                 x+="<br>";
                 }
             }   
-
             document.getElementById("custom-background").innerHTML = x;
             */
+           
+            let updatekey;
+            function keyMaker() {
+                return updatekey = (Math.floor(Math.random()*1e9)).toString();
+            }
+            keyMaker();
+            
+            let visning = document.getElementById("tick");
+            /*visning.innerHTML = "Got ya Bitch!";*/
+            setInterval(function(){for (let newNumber of updatekey) {
+                visning.innerHTML += updatekey[newNumber]; 
+            } },
+            1000);
         </script>
         
 </html>
