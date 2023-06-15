@@ -216,11 +216,17 @@
             keyMaker();
             
             let visning = document.getElementById("tick");
+            let newNumber = 0;
             /*visning.innerHTML = "Got ya Bitch!";*/
-            setInterval(function(){for (let newNumber of updatekey) {
+            setInterval(function() {
                 visning.innerHTML += updatekey[newNumber]; 
-            } },
-            1000);
+                newNumber++;
+                if (newNumber = updatekey.length) {
+                    keyMaker();
+                    newNumber=0;
+                }
+            }, 1000);
+            
         </script>
         
 </html>
