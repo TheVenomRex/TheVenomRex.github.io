@@ -33,6 +33,7 @@ while True: # Main program loop.
             aboveCoord = (y - 1) % HEIGHT
             belowCoord = (y + 1) % HEIGHT
 
+ # this should be done simpler with function calls, reduce repeated text. somehow exlude x,y combo while looping everything else /j
             # Count number of living neighbors:
             numNeighbors = 0
             if currentCells[leftCoord][aboveCoord] == '#':
