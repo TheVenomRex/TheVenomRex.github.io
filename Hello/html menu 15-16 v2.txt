@@ -1,0 +1,728 @@
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-T7CSV3G');</script>
+	<!-- End Google Tag Manager -->
+	
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Ugens menu</title>
+    
+            <link rel="canonical" href="https://kejserindens-gryder.dk/frokostordning/ugens-menu" />
+    
+<style>
+    
+	html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100% } body { margin: 0 } article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block } audio, canvas, progress, video { display: inline-block; vertical-align: baseline } audio:not([controls]) { display: none; height: 0 } [hidden], template { display: none } a { background-color: transparent } a:active, a:hover { outline: 0 } abbr[title] { border-bottom: 1px dotted } b, strong { font-weight: bold } dfn { font-style: italic } h1 { font-size: 2em; margin: 0.67em 0 } mark { background: #ff0; color: #000 } small { font-size: 80% } sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline } sup { top: -0.5em } sub { bottom: -0.25em } img { border: 0 } svg:not(:root) { overflow: hidden } figure { margin: 1em 40px } hr { -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; height: 0 } pre { overflow: auto } code, kbd, pre, samp { font-family: monospace, monospace; font-size: 1em } button, input, optgroup, select, textarea { color: inherit; font: inherit; margin: 0 } button { overflow: visible } button, select { text-transform: none } button, html input[type="button"], input[type="reset"], input[type="submit"] { -webkit-appearance: button; cursor: pointer } button[disabled], html input[disabled] { cursor: default } button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0 } input { line-height: normal } input[type="checkbox"], input[type="radio"] { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; padding: 0 } input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button { height: auto } input[type="search"] { -webkit-appearance: textfield; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box } input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration { -webkit-appearance: none } fieldset { border: 1px solid #c0c0c0; margin: 0 2px; padding: 0.35em 0.625em 0.75em } legend { border: 0; padding: 0 } textarea { overflow: auto } optgroup { font-weight: bold } table { border-collapse: collapse; border-spacing: 0 } td, th { padding: 0 } * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box } *:before, *:after { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box } html { font-size: 10px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0) } body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.42857143; color: #333; background-color: #fff } input, button, select, textarea { font-family: inherit; font-size: inherit; line-height: inherit } a { color: #337ab7; text-decoration: none } a:hover, a:focus { color: #23527c; text-decoration: underline } a:focus { outline: 5px auto -webkit-focus-ring-color; outline-offset: -2px } figure { margin: 0 } img { vertical-align: middle } .img-responsive { display: block; max-width: 100%; height: auto } .img-rounded { border-radius: 6px } .img-thumbnail { padding: 4px; line-height: 1.42857143; background-color: #fff; border: 1px solid #ddd; border-radius: 4px; -webkit-transition: all .2s ease-in-out; -o-transition: all .2s ease-in-out; transition: all .2s ease-in-out; display: inline-block; max-width: 100%; height: auto } .img-circle { border-radius: 50% } hr { margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid #eee } .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0 } .sr-only-focusable:active, .sr-only-focusable:focus { position: static; width: auto; height: auto; margin: 0; overflow: visible; clip: auto } [role="button"] { cursor: pointer } .container { margin-right: auto; margin-left: auto; padding-left: 15px; padding-right: 15px } @media (min-width: 768px) { .container { width: 750px } } @media (min-width: 992px) { .container { width: 970px } } @media (min-width: 1200px) { .container { width: 1170px } } .container-fluid { margin-right: auto; margin-left: auto; padding-left: 15px; padding-right: 15px } .row { margin-left: -15px; margin-right: -15px } .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 { position: relative; min-height: 1px; padding-left: 15px; padding-right: 15px } .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 { float: left } .col-xs-12 { width: 100% } .col-xs-11 { width: 91.66666667% } .col-xs-10 { width: 83.33333333% } .col-xs-9 { width: 75% } .col-xs-8 { width: 66.66666667% } .col-xs-7 { width: 58.33333333% } .col-xs-6 { width: 50% } .col-xs-5 { width: 41.66666667% } .col-xs-4 { width: 33.33333333% } .col-xs-3 { width: 25% } .col-xs-2 { width: 16.66666667% } .col-xs-1 { width: 8.33333333% } .col-xs-pull-12 { right: 100% } .col-xs-pull-11 { right: 91.66666667% } .col-xs-pull-10 { right: 83.33333333% } .col-xs-pull-9 { right: 75% } .col-xs-pull-8 { right: 66.66666667% } .col-xs-pull-7 { right: 58.33333333% } .col-xs-pull-6 { right: 50% } .col-xs-pull-5 { right: 41.66666667% } .col-xs-pull-4 { right: 33.33333333% } .col-xs-pull-3 { right: 25% } .col-xs-pull-2 { right: 16.66666667% } .col-xs-pull-1 { right: 8.33333333% } .col-xs-pull-0 { right: auto } .col-xs-push-12 { left: 100% } .col-xs-push-11 { left: 91.66666667% } .col-xs-push-10 { left: 83.33333333% } .col-xs-push-9 { left: 75% } .col-xs-push-8 { left: 66.66666667% } .col-xs-push-7 { left: 58.33333333% } .col-xs-push-6 { left: 50% } .col-xs-push-5 { left: 41.66666667% } .col-xs-push-4 { left: 33.33333333% } .col-xs-push-3 { left: 25% } .col-xs-push-2 { left: 16.66666667% } .col-xs-push-1 { left: 8.33333333% } .col-xs-push-0 { left: auto } .col-xs-offset-12 { margin-left: 100% } .col-xs-offset-11 { margin-left: 91.66666667% } .col-xs-offset-10 { margin-left: 83.33333333% } .col-xs-offset-9 { margin-left: 75% } .col-xs-offset-8 { margin-left: 66.66666667% } .col-xs-offset-7 { margin-left: 58.33333333% } .col-xs-offset-6 { margin-left: 50% } .col-xs-offset-5 { margin-left: 41.66666667% } .col-xs-offset-4 { margin-left: 33.33333333% } .col-xs-offset-3 { margin-left: 25% } .col-xs-offset-2 { margin-left: 16.66666667% } .col-xs-offset-1 { margin-left: 8.33333333% } .col-xs-offset-0 { margin-left: 0 }
+    img{max-width:100%;height:auto}.banner img{width:100%}body{font-size:14px;color:#333;font-family:&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif}h1,h2,h3,h4,h5{font-family:&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif;margin-top:0;margin-bottom:10px}h1{font-size:26px}h2{font-size:22px}h3{font-size:20px}h4{font-size:18px}h5{font-size:16px}a{color:#094270;-moz-transition:200ms all ease-in-out;-o-transition:200ms all ease-in-out;-webkit-transition:200ms all ease-in-out;transition:200ms all ease-in-out}a:hover{color:#052641;text-decoration:none}a:focus{color:#094270;outline:0;text-decoration:none}.left{text-align:left}.center{text-align:center}.right{text-align:right}header{min-height:55px}.form-control{border-radius:0;-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none}.form-control:focus{-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none}.knap{border:none;background-color:hotpink;color:#fff;width:100px}.customBox-img{width:100%}.fb-thumb{width:100%;padding:40% 0;background-size:cover;background-position:center center}.fb-pager{text-align:center}.fb-pager span{color:#ccc}.fb-pager a span{color:#000}.fb-pager .number-holder{display:inline-block;text-align:center;min-width:60px}#map{height:400px}#map img{max-width:none}iframe[name=&#39;google_conversion_frame&#39;]{height:0 !important;width:0 !important;line-height:0 !important;font-size:0 !important;margin-top:-13px;float:left}.sideMenu{float:left;text-transform:uppercase;font-family:&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif}.sideMenu ul{padding:0;margin:0;list-style:none}.sideMenu li{float:left;position:relative;width:100%}.sideMenu li a{-moz-transition:200ms all ease-in-out;-o-transition:200ms all ease-in-out;-webkit-transition:200ms all ease-in-out;transition:200ms all ease-in-out;padding:8px 12px;display:block;background-color:#000;color:#efefef}.sideMenu li:hover&gt;a{color:#094270;background-color:#fff}.sideMenu li.active&gt;a{color:#094270;background-color:#fff}
+
+
+    @media (min-width: 992px) and (max-width: 1199px){.customBox .customBoxContent .half{height:310px}.customBox .customBoxContent .half h3{font-size:24px}}@media (min-width: 768px) and (max-width: 991px){.FrontpageLinkBox p{font-size:15px}.customBox .customBoxContent .half .centerContent{margin-bottom:30px}.customBox .customBoxContent .half h3{margin-top:30px}.fbBox{margin-bottom:30px}.colorBox h4{display:block;margin:20px 0}.contactPage .contentHolder{padding:30px}.contactPage .greyBox{padding:30px}}@media (max-width: 991px){.orderFoodMobile{font-weight:bold;display:block;margin-top:50px;color:#f7921e;text-transform:uppercase;font-size:30px;text-decoration:underline}.customBox .customBoxContent .half{width:100%;float:none;height:inherit;padding:0}.customBox .customBoxContent .half .centerContent{position:static;left:0;top:0;transform:inherit;padding:10px}.googlePlusHolder{padding-bottom:70px;margin-top:30px}}@media (max-width: 767px){.normalPage{padding:20px}.FrontpageLinkBox{height:80px}.bxslider .greyHolder .textHolder{font-size:20px;bottom:0;position:relative;width:100%;max-width:90%;top:30px}.bxslider .greyHolder .textHolder h1,.bxslider .greyHolder .textHolder h2{font-size:20px}.bxslider .greyHolder .textHolder a{font-size:16px}footer{padding-top:40px}footer .footerLinks{margin-top:10px}footer .footerLinks a img{margin-bottom:20px}.menus{padding:20px}.banner h5,.banner h1,.banner h2{position:absolute;font-size:20px;bottom:0;left:20px}.menuBox{width:100%}.colorBox{padding:30px 0}.colorBox img{margin:10px 0}.colorBox h4{display:block}.menu&gt;div{padding:30px 20px}.relatedBox{padding:30px 0}.relatedBox h4{margin:0 0 10px 15px;display:block;text-align:center}.relatedBox a{display:block;margin:10px auto 10px;text-align:center}.contactPage .contentHolder{padding:20px}.contactPage .greyBox{padding:20px}.googlePlusHolder{padding-bottom:100px;margin-top:30px}}@media all and (min-width: 1200px), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min--moz-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (-o-min-device-pixel-ratio: 2 / 1) and (min-width: 1200px), only screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), only screen and (min-resolution: 192dpi) and (min-width: 1200px), only screen and (min-resolution: 2dppx) and (min-width: 1200px){.navi{padding:0 30px}#menu{float:right;font-family:&quot;Poppins&quot;,sans-serif;margin-top:72px}#menu .trigger{display:none}#menu ul{position:relative;z-index:60;padding:0;margin:0;list-style:none;-moz-transition:200ms all ease-in-out;-o-transition:200ms all ease-in-out;-webkit-transition:200ms all ease-in-out;transition:200ms all ease-in-out}#menu li{float:left;position:relative}#menu li a{-moz-transition:200ms all ease-in-out;-o-transition:200ms all ease-in-out;-webkit-transition:200ms all ease-in-out;transition:200ms all ease-in-out;display:block;color:#999;font-weight:bold;padding:0 15px}#menu li a span{padding:25px 0}#menu li:hover&gt;a{color:#222}#menu li:hover&gt;a span{border-bottom:4px solid #f7921e}#menu li:hover&gt;ul{opacity:1;visibility:visible}#menu li.active&gt;a{color:#222}#menu li.active&gt;a span{border-bottom:4px solid #f7921e}#menu li.active ul li.active a span{border-bottom:0 !important}#menu ul ul{background-color:#fff;visibility:hidden;position:absolute;opacity:0;left:50%;-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);-o-transform:translateX(-50%);-webkit-transform:translateX(-50%);transform:translateX(-50%);width:220px;text-align:center;box-shadow:3px 3px 9px rgba(0,0,0,0.2);margin-top:30px}#menu ul ul li{width:100%;border-bottom:1px solid #c4c4c4;padding:15px 0}#menu ul ul li:hover{background-color:#ededed}#menu ul ul li:hover span{border-bottom:none}#menu ul ul ul{left:100%;top:0;-moz-transform:none;-ms-transform:none;-o-transform:none;-webkit-transform:none;transform:none}}@media all and (max-width: 1199px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1199px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1199px), only screen and (-o-min-device-pixel-ratio: 2 / 1) and (max-width: 1199px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1199px), only screen and (min-resolution: 192dpi) and (max-width: 1199px), only screen and (min-resolution: 2dppx) and (max-width: 1199px){#menu .trigger{padding:8px 15px;background-color:#fff;cursor:pointer;line-height:1em}#menu .trigger:before{color:#333;content:&quot;\f0c9&quot;;font-family:FontAwesome;font-size:18px;line-height:1em;position:relative}#menu&gt;.trigger{position:fixed;top:3px;right:10px;z-index:9}#menu&gt;.menuWrap&gt;.trigger{position:absolute;top:3px;right:10px}#menu.active .trigger:before{content:&quot;\f00d&quot;;color:#888}#menu.active .menuWrap{right:0}#menu .menuWrap{text-transform:uppercase;font-family:&quot;Poppins&quot;,sans-serif;background-color:#fff;position:fixed;top:0;bottom:0;right:-280px;line-height:1em;width:280px;z-index:99;padding:50px 0 0px 0;border-left:1px solid #ededed;overflow-y:visible;overflow-x:hidden;-moz-transition:200ms all ease-in-out;-o-transition:200ms all ease-in-out;-webkit-transition:200ms all ease-in-out;transition:200ms all ease-in-out}#menu .menuWrap li.toggled&gt;.toggle:before{content:&quot;\f105&quot;}#menu .menuWrap li.toggled&gt;ul&gt;li&gt;a{padding:12px 0}#menu .menuWrap li.toggled&gt;ul{right:0}#menu .menuWrap ul{padding:0;margin:0;list-style:none;overflow:hidden}#menu .menuWrap ul li{position:relative;float:left;width:100%;padding:0 20px;background-color:#fff;border-top:1px solid #ededed}#menu .menuWrap ul li a{display:block;padding:12px 0;color:#333;-moz-transition:200ms all ease-in-out;-o-transition:200ms all ease-in-out;-webkit-transition:200ms all ease-in-out;transition:200ms all ease-in-out}#menu .menuWrap ul li .toggle{position:absolute;padding:6px;top:0;right:20px;cursor:pointer;z-index:10}#menu .menuWrap ul li .toggle:before{color:#333;font-family:FontAwesome;content:&quot;\f105&quot;;font-size:16px;line-height:1em;position:relative;top:1px}#menu .menuWrap ul li.active{background-color:#ededed}#menu .menuWrap ul li.active&gt;a{color:#333}#menu .menuWrap ul ul{padding-left:10px;position:fixed;top:0;bottom:0;background-color:#fff;z-index:99;top:0;bottom:0;right:-280px;line-height:1em;width:280px;z-index:99;padding:50px 0 0px 0;border-left:1px solid #ededed;-moz-transition:500ms all ease-in-out;-o-transition:500ms all ease-in-out;-webkit-transition:500ms all ease-in-out;transition:500ms all ease-in-out}#menu .menuWrap ul ul li{position:relative;float:left;width:100%;padding:0 20px;background-color:#fff;border-top:1px solid #ededed}#menu .menuWrap ul ul li a{display:block;padding:12px 0;color:#333}#menu .menuWrap ul ul li.active{background-color:#ededed}#menu .menuWrap ul ul li.active&gt;a{color:#333}.menuWrap ul ul li.backMenu{cursor:pointer;display:block;padding:8px 20px !important;color:#333;background-color:#ededed}.menuWrap ul ul li.backMenu .fa{padding-right:10px}}
+
+
+</style>
+
+    
+
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org/",
+            "@type": "LocalBusiness",
+            "address":  [
+                    
+                        {
+                        "@type": "PostalAddress",
+                        "streetAddress": "Albertslund, Hersted&#248;stervej 27 - 29",
+                        "postalCode": "2620",
+                        "addressLocality": "Albertslund"
+                        }
+                    
+            ],
+            "name": "Kejserindens Gryder A/S",
+            "url": "https://kejserindens-gryder.dk",
+            "logo": "https://kejserindens-gryder.dk/images/logo.png",
+            "image": "https://kejserindens-gryder.dk/media/1015/bannerdefault.jpg",
+            "description": "Catering - mad ud af huset til selskaber",
+            "telephone": "88537788",
+            "faxNumber": ""
+        }
+    </script>
+
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700&amp;subset=latin-ext" rel="stylesheet">
+
+
+
+</head>
+<style>
+	.info-banner{
+	background-color:#fc922f;
+    position: relative;
+    z-index: 5;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: .8rem 1.5rem;
+	margin-top:2rem;
+	}
+	.info-banner:hover{
+	text-decoration:underline;
+	}
+
+	.bxslider .greyHolder {
+	    background-color: rgba(0,0,0,0) !important;
+
+}
+</style>
+<body id="top" ng-app="base-app">
+
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7CSV3G"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/da_DK/sdk.js#xfbml=1&version=v2.9&appId=223578291338360";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <header>
+        <div class="container">
+            <div class="row navi">
+                <div class="col-md-4 col-sm-6 col-xs-9">
+                    <div class="logo">
+                        <a href="/"><img src="/images/logo.png" alt="catering København - mad ud af huset til selskaber" /></a>
+                    </div>
+                </div>
+                <div class="col-md-8 col-sm-6 col-xs-3">
+                    <div class="clearfix" id="menu">
+    <div class="trigger" role="button">
+    </div>
+    <nav class="menuWrap">
+        <div class="trigger" role="button">
+        </div>
+        <ul>
+                <li class=" ">
+                    <a href="/" target="_self">
+                        <span>Forside</span>
+                    </a>
+                </li>
+                    <li class=" has-sub ">
+
+            <a href="/profil" target="_self">
+                <span>Profil <div class="toggle" role="button"></div></span>
+            </a>
+
+                <ul>
+                    <li class="backMenu hidden-lg"><i class="fa fa-angle-left" aria-hidden="true"></i> Tilbage</li>
+                            <li class="  ">
+
+            <a href="/profil/kunderne-siger" target="_self">
+                <span>Kunderne siger </span>
+            </a>
+
+        </li>
+        <li class="  ">
+
+            <a href="/profil/inspirationsaften" target="_self">
+                <span>Inspirationsaften </span>
+            </a>
+
+        </li>
+        <li class="  ">
+
+            <a href="/profil/presse" target="_self">
+                <span>Presse </span>
+            </a>
+
+        </li>
+
+                </ul>
+        </li>
+        <li class=" has-sub ">
+
+            <a href="/buffet" target="_self">
+                <span>Buffet <div class="toggle" role="button"></div></span>
+            </a>
+
+                <ul>
+                    <li class="backMenu hidden-lg"><i class="fa fa-angle-left" aria-hidden="true"></i> Tilbage</li>
+                            <li class="  ">
+
+            <a href="/buffet/studenterbuffet" target="_self">
+                <span>Studenterbuffet </span>
+            </a>
+
+        </li>
+        <li class="  ">
+
+            <a href="/buffet/tapasbuffet" target="_self">
+                <span>Tapasbuffet </span>
+            </a>
+
+        </li>
+        <li class="  ">
+
+            <a href="/buffet/italiensk-buffet" target="_self">
+                <span>Italiensk buffet </span>
+            </a>
+
+        </li>
+        <li class="  ">
+
+            <a href="/buffet/vaert-vaertindens-frihed" target="_self">
+                <span>V&#230;rt/v&#230;rtindens frihed </span>
+            </a>
+
+        </li>
+        <li class="  ">
+
+            <a href="/buffet/brunch" target="_self">
+                <span>Brunch </span>
+            </a>
+
+        </li>
+        <li class="  ">
+
+            <a href="/buffet/vaelg-selv-buffet" target="_self">
+                <span>V&#230;lg-selv-buffet </span>
+            </a>
+
+        </li>
+        <li class="  ">
+
+            <a href="/buffet/reception" target="_self">
+                <span>Reception </span>
+            </a>
+
+        </li>
+        <li class="  ">
+
+            <a href="/menuer" target="_self">
+                <span>Menuer </span>
+            </a>
+
+        </li>
+
+                </ul>
+        </li>
+        <li class=" has-sub ">
+
+            <a href="/menu" target="_self">
+                <span>Menu <div class="toggle" role="button"></div></span>
+            </a>
+
+                <ul>
+                    <li class="backMenu hidden-lg"><i class="fa fa-angle-left" aria-hidden="true"></i> Tilbage</li>
+                            <li class="  ">
+
+            <a href="/menu/bryllupsmenu" target="_self">
+                <span>Bryllupsmenu </span>
+            </a>
+
+        </li>
+        <li class="  ">
+
+            <a href="/menu/konfirmation" target="_self">
+                <span>Konfirmation </span>
+            </a>
+
+        </li>
+        <li class="  ">
+
+            <a href="/menu/sandwich" target="_self">
+                <span>Sandwich </span>
+            </a>
+
+        </li>
+        <li class="  ">
+
+            <a href="/menu/begravelse" target="_self">
+                <span>Begravelse </span>
+            </a>
+
+        </li>
+        <li class="  ">
+
+            <a href="/menu/portionsanrettet-tapasplatte" target="_self">
+                <span>Portionsanrettet tapasplatte </span>
+            </a>
+
+        </li>
+        <li class="  ">
+
+            <a href="/menu/juleaftens-menu" target="_self">
+                <span>Juleaftens menu </span>
+            </a>
+
+        </li>
+        <li class="  ">
+
+            <a href="/menu/mortens-aften" target="_self">
+                <span>Mortens Aften </span>
+            </a>
+
+        </li>
+        <li class="  ">
+
+            <a href="https://kejserindens-gryder.dk/buffeter" target="_self">
+                <span>Buffeter </span>
+            </a>
+
+        </li>
+
+                </ul>
+        </li>
+        <li class="active has-sub ">
+
+            <a href="/frokostordning" target="_self">
+                <span>FROKOSTORDNING <div class="toggle" role="button"></div></span>
+            </a>
+
+                <ul>
+                    <li class="backMenu hidden-lg"><i class="fa fa-angle-left" aria-hidden="true"></i> Tilbage</li>
+                            <li class="  ">
+
+            <a href="/frokostordning/frokostordning-tilbud" target="_self">
+                <span>Frokostordning TILBUD </span>
+            </a>
+
+        </li>
+        <li class="  ">
+
+            <a href="/frokostordning/sandwich" target="_self">
+                <span>Sandwich </span>
+            </a>
+
+        </li>
+        <li class="  ">
+
+            <a href="/frokostordning/salatanretning" target="_self">
+                <span>Salatanretning </span>
+            </a>
+
+        </li>
+        <li class="  ">
+
+            <a href="/frokostordning/medarbejder-app" target="_self">
+                <span>Medarbejder App </span>
+            </a>
+
+        </li>
+        <li class="  ">
+
+            <a href="/frokostordning/moedeforplejning" target="_self">
+                <span>M&#248;deforplejning </span>
+            </a>
+
+        </li>
+        <li class="  ">
+
+            <a href="/frokostordning/portionsanrettet-frokostordning" target="_self">
+                <span>Portionsanrettet frokostordning </span>
+            </a>
+
+        </li>
+        <li class="active  ">
+
+            <a href="/frokostordning/ugens-menu" target="_self">
+                <span>Ugens menu </span>
+            </a>
+
+        </li>
+
+                </ul>
+        </li>
+        <li class="  ">
+
+            <a href="http://smorrebrod.kejserindens-gryder.dk" target="_blank">
+                <span>Sm&#248;rrebr&#248;d </span>
+            </a>
+
+        </li>
+        <li class="  ">
+
+            <a href="/vores-smagsloeg" target="_self">
+                <span>Vores smagsl&#248;g </span>
+            </a>
+
+        </li>
+        <li class=" has-sub ">
+
+            <a href="/kontakt" target="_self">
+                <span>Kontakt <div class="toggle" role="button"></div></span>
+            </a>
+
+                <ul>
+                    <li class="backMenu hidden-lg"><i class="fa fa-angle-left" aria-hidden="true"></i> Tilbage</li>
+                            <li class="  ">
+
+            <a href="/kontakt/vi-stoetter" target="_self">
+                <span>Vi st&#248;tter </span>
+            </a>
+
+        </li>
+        <li class="  ">
+
+            <a href="/kontakt/ledige-jobs-available-jobs" target="_self">
+                <span>Ledige jobs / Available jobs </span>
+            </a>
+
+        </li>
+        <li class="  ">
+
+            <a href="https://kejserindens-gryder.dk/media/1070/persondatahaandtering.pdf" target="_blank">
+                <span>Persondatah&#229;ndtering </span>
+            </a>
+
+        </li>
+        <li class="  ">
+
+            <a href="/kontakt/salgs-leveringsbetingelser" target="_self">
+                <span>salgs &amp; leveringsbetingelser </span>
+            </a>
+
+        </li>
+        <li class="  ">
+
+            <a href="/kontakt/vi-samarbejder-med" target="_self">
+                <span>Vi samarbejder med </span>
+            </a>
+
+        </li>
+
+                </ul>
+        </li>
+
+        </ul>
+    </nav>
+</div>
+                </div>
+            </div>
+        </div>
+    </header>
+	
+    <main>
+        <div class="container">
+            <div class="whiteCon">
+                
+    <div class="banner">
+            <img src="/media/124361/bettina-beskaaret.jpg?anchor=center&amp;mode=crop&amp;quality=80&amp;width=1140&amp;height=300&amp;rnd=133256972640000000" />
+
+        <div class="greyOverlay">
+            <h5>Ugens menu</h5>
+            <div class="linkToSmaePage hidden-xs">
+                    <a href="#" id="menu1">Menu  UGE 15</a>
+                                    <span>|</span> <a href="#" id="menu2">Menu  UGE 16</a>
+                            </div>
+        </div>
+    </div>
+
+
+                
+<style>
+	.menu > div { color: #222!important; }
+</style>
+
+
+
+<article class="subPage menu">
+    <a href="/kontakt" class="orderFood hidden-sm hidden-xs">
+        <div class="tri"></div>
+        <div class="textHolder">
+            <p>
+                Bestil mad
+            </p>
+        </div>
+    </a>
+    <div class="menu1">
+            <h2>Menu  UGE 15</h2>
+
+<h2 style="text-align: center;"><strong>Mandag<span> 8. april</span></strong></h2>
+<h3 style="text-align: center;"><strong>Kejserindens Buffet</strong></h3>
+<p style="text-align: center;"><strong>Salater<br /></strong>Bønner m. hakket æg, løg, kapers vendt i olie/eddike dressing (3,10,15) <br />Spinat salat m. bagte rødbeder, balsamico &amp; solsikkekerner <br />samt dressing<br /><br /><strong>Pålæg<br /></strong>Æg m. grøn mayonnaise &amp; tomater (3,10)<br />Kyllingefrikadeller m. tzatziki (1,3,7,15,16)<br />Karrysalat m. oksekød (1,3,7,10,15)<br />samt hjemmebagt franskbrød og rugbrød<strong><br /><br /></strong><strong>Varm ret<br /></strong>Spaghetti/kødsauce (1,9,15,16)<br /><strong><br /></strong><strong>Varm ret / minus gris<br /></strong>Spaghetti/kødsauce (1,9,15,16)<strong><br /><br /></strong><strong>Varm ret / vegetar <br /></strong>Spaghetti/veggiemincesauce (1,6,9,15,16)</p>
+<h3 style="text-align: center;"><strong>Portions anrettet frokost</strong></h3>
+<p style="text-align: center;"><strong>Kold ret</strong><br />Bresaola m. hummus, tomatsalat &amp; brød (1,7,11,16)</p>
+<p style="text-align: center;"><strong>Varm ret</strong><br />Spaghetti/kødsauce (1,9,15,16)</p>
+<p style="text-align: center;"><strong>Varm ret / minus gris</strong><br />Spaghetti/kødsauce (1,9,15,16)</p>
+<p style="text-align: center;"><strong>Varm ret / vegetar</strong><br />Spaghetti/veggiemincesauce (1,6,9,15,16)</p>
+<p style="text-align: center;"><strong>Dagens alm.<span> </span>måltidssalat m.<br /></strong>Kylling med spinatsalat og bagte rødbeder (7)</p>
+<p style="text-align: center;"><strong>Dagens 3. stk. uspec. smørrebrød</strong></p>
+<p style="text-align: center;"><strong>Dagens Focacciasandwich<br /><br />Dagens Rugbrødssandwich</strong></p>
+<h2 style="text-align: center;"><strong>Tirsdag<span> </span>9. april</strong></h2>
+<h3 style="text-align: center;"><strong>Kejserindens Buffet</strong></h3>
+<p style="text-align: center;"><strong>Salater<br /></strong>80'ernes hit salat<br />Kikærtesalat med varme krydderier, spinat og salattern (7) <br />samt dressing<strong><br /></strong><br /><strong>Pålæg<br /></strong>Skinke med italiensksalat (3,7,10)<br />Kalkunchorizo med tomatrelish (6,7,15)<br />Gubberøre (3,4,7,10,15)<br />samt hjemmebagt franskbrød og rugbrød<strong><br /><br /></strong><strong>Varm ret<br /></strong>Kylling i karry med ris og chutney (7,9,15)<strong><br /><br /></strong><strong>Varm ret / minus gris<br /></strong>Kylling i karry med ris og chutney (7,9,15)<strong><br /><br /></strong><strong>Varm ret / vegetar <br /></strong>Sojachunks i karry med ris og chutney (6,7,9,15)</p>
+<h3 style="text-align: center;"><strong>Portions anrettet frokost</strong></h3>
+<p style="text-align: center;"><strong>Kold ret</strong><br />Bagekartoffel med skinkestrimler brød og creme fraiche (1,7)</p>
+<p style="text-align: center;"><strong>Varm ret</strong><br />Kylling i karry med ris og chutney (7,9,15)</p>
+<p style="text-align: center;"><strong>Varm ret / minus gris</strong><br />Kylling i karry med ris og chutney (7,9,15)</p>
+<p style="text-align: center;"><strong>Varm ret / vegetar</strong><br />Sojachunks i karry med ris og chutney (6,7,9,15)</p>
+<p style="text-align: center;"><strong>Dagens alm.<span> </span>måltidssalat m.<br /></strong>Tun og æg, samt kikærtesalat m. varme krydderier, spinat og salattern (1,3,4,7)</p>
+<p style="text-align: center;"><strong>Dagens Focacciasandwich<br /><br />Dagens Rugbrødssandwich</strong></p>
+<h2 style="text-align: center;"><strong>Onsdag<span> </span>10. april</strong></h2>
+<h3 style="text-align: center;"><strong>Kejserindens Buffet</strong></h3>
+<p style="text-align: center;"><strong>Salater<br /></strong>Kålsalat med ingefær og sesamagurker (11)<br />Kartoffelsalat med løg, kapers, persille og mizuna (3,7,10,15) <br />samt dressing<strong><br /></strong><br /><strong>Pålæg<br /></strong>Varmrøget kalkun med ærtecreme og gulerodssalat (3,7,10)<br />Vitello tonato (3,4,7,10)<br />Kejserindens pølsesalat med rødløg og kapers (3,6,7,10,15)<br />samt hjemmebagt franskbrød og rugbrød<strong><br /><br /></strong><strong>Varm ret<br /></strong>Øko oksecuvette med tyttebær, "vildtsauce" og ramsløgs kartofler (7,9,15)<br /><strong><br /></strong><strong>Varm ret / minus gris<br /></strong>Øko oksecuvette med tyttebær, "vildtsauce" og ramsløgs kartofler (7,9,15)<strong><br /><br /></strong><strong>Varm ret / vegetar <br /></strong>Saltbagt selleri med tyttebær, vegetarisk "vildtsauce" og ramsløgs kartofler (7,9,15)<strong><br /><br />Onsdagskage</strong><br />Banan/choko muffin (1,3,7)</p>
+<h3 style="text-align: center;"><strong>Portions anrettet frokost</strong></h3>
+<p style="text-align: center;"><strong>Kold ret</strong><br />Tortillas med kylling, chilimayo, syltet agurk og kål (1,3,7,10,15)</p>
+<p style="text-align: center;"><strong>Varm ret</strong><br />Øko oksecuvette med tyttebær, "vildtsauce" og ramsløgs kartofler (7,9,15)</p>
+<p style="text-align: center;"><strong>Varm ret / minus gris</strong><br />Øko oksecuvette med tyttebær, "vildtsauce" og ramsløgs kartofler (7,9,15)</p>
+<p style="text-align: center;"><strong>Varm ret / vegetar</strong><br />Saltbagt selleri med tyttebær, vegetarisk "vildtsauce" og ramsløgs kartofler (7,9,15)</p>
+<p style="text-align: center;"><strong>Dagens alm.<span> </span>måltidssalat m.<br /></strong>Skinke, kartoffelsalat med løg, kapers, persille og mizuna (1,3,7,10,15)<strong><br /></strong></p>
+<p style="text-align: center;"><strong>Dagens 3. stk. uspec. smørrebrød</strong></p>
+<p style="text-align: center;"><strong>Dagens Focacciasandwich<br /><br />Dagens Rugbrødssandwich</strong></p>
+<p style="text-align: center;"><strong> </strong></p>
+<h2 style="text-align: center;"><strong>Torsdag<span> </span>11. april</strong></h2>
+<h3 style="text-align: center;"><strong>Kejserindens Buffet</strong></h3>
+<p style="text-align: center;"><strong>Salater<br /></strong>Blomkålsris med hasselnødder, chili og karse (8)<br />Bagte pastinakker med stegte skalotteløg, æbler og spinat (15) <br />samt dressing<strong><br /></strong><br /><strong>Pålæg<br /></strong>Krosalami med kartoffelsalat (3,7,10,15,16)<br />Citrusstegt kylling med spicy ingefærcreme (3,7,10) <br />Kebabsalat m. linser &amp; soltørret tomat (3,6,7,8,9,10,11,15,16)<br />samt hjemmebagt franskbrød og rugbrød<strong><br /><br /></strong><strong>Varm ret<br /></strong>Marrokansk kalkungryde med bulgur og sorte linser (1,7,9,15,16)<br /><strong><br /></strong><strong>Varm ret / minus gris<br /></strong>Marrokansk kalkungryde med bulgur og sorte linser (1,7,9,15,16)<strong><br /><br /></strong><strong>Varm ret / vegetar</strong><br />Marrokansk Nochickengryde med bulgur og sorte linser (1,6,7,9,15,16)</p>
+<h3 style="text-align: center;"><strong>Portions anrettet frokost</strong></h3>
+<p style="text-align: center;"><strong>Kold ret</strong><br />Piroq med gris, salatost, mixet salat og safran yoghurt (1,3,7,15,16)</p>
+<p style="text-align: center;"><strong>Varm ret</strong><br />Marrokansk kalkungryde med bulgur og sorte linser (1,7,9,15,16)</p>
+<p style="text-align: center;"><strong>Varm ret / minus gris</strong><br />Marrokansk kalkungryde med bulgur og sorte linser (1,7,9,15,16)</p>
+<p style="text-align: center;"><strong>Varm ret / vegetar</strong><br />Marrokansk Nochickengryde med bulgur og sorte linser (1,6,7,9,15,16)</p>
+<p style="text-align: center;"><strong>Dagens alm.<span> </span>måltidssalat m.<br /></strong>Oksestrimler, bagte pastinakker m. stegte skalotteløg, æbler og spinat (1,7,15)<strong><br /></strong></p>
+<p style="text-align: center;"><strong>Dagens 3. stk. uspec. smørrebrød</strong></p>
+<p style="text-align: center;"><strong>Dagens Focacciasandwich<br /><br />Dagens Rugbrødssandwich</strong></p>
+<p style="text-align: center;"><strong> </strong></p>
+<h2 style="text-align: center;"><strong>Fredag<span> </span>12. april</strong></h2>
+<h3 style="text-align: center;"><strong>Kejserindens Buffet</strong></h3>
+<p style="text-align: center;"><strong>Salater<br /></strong>Råkostsalat med ananas, rosiner og kokos<br />Grøn linsesalat med hytteost, ramsløg og spiced agurk (7)<br />samt dressing<strong><br /><br />Pålæg<br /></strong>Paté med surt (15)<br />Roastbeef med Romesco sauce og balsamicostegte løg (7,8,15,16)<br />Makrelsalat (3,4,10)</p>
+<p style="text-align: center;"><span>samt hjemmebagt franskbrød og rugbrød</span><br /><br /><strong>Varm ret</strong><br />Hamburgerryg med stuvet forårsgrønt og løvstikke kartofler (7)<br /><br /><strong>Varm ret / minus gris<br /></strong>Kalkuncuvette med stuvet forårsgrønt og løvstikke kartofler (7)<br /><strong><br />Varm ret / vegetar</strong><br />Vegetarisk karrypølse med stuvet forårsgrønt og løvstikke kartofler (1,7,15,16)</p>
+<p style="text-align: center;"><strong>Dessert</strong><br />Citronfromage med crispy drys (1,3,7,8)</p>
+<h3 style="text-align: center;"><strong>Portions anrettet frokost</strong></h3>
+<p style="text-align: center;"><strong>Kold ret</strong><br />Laksemousse m. blandet salat m. sauce verte samt brød (1,3,4,7,10,15)<br /><br /><strong>Varm ret</strong><br />Hamburgerryg med stuvet forårsgrønt og løvstikke kartofler (7)<br /><br /><strong>Varm ret / minus gris<br /></strong>Kalkuncuvette med stuvet forårsgrønt og løvstikke kartofler (7)<strong><br /><br />Varm ret / vegetar<br /></strong>Vegetarisk karrypølse med stuvet forårsgrønt og løvstikke kartofler (1,7,15,16)<strong><br /><br />Dagens alm.<span> </span>måltidssalat m.<br /></strong>Rødbedefalafel og grøn linsesalat med hytteost, ramsløg og spiced agurk (1,2,7,15,16)<strong><br /></strong></p>
+<p style="text-align: center;"><strong>Dagens 3. stk. uspec. smørrebrød</strong></p>
+<p style="text-align: center;"><strong>Dagens Focacciasandwich<br /><br />Dagens Rugbrødssandwich</strong></p>
+<p style="text-align: center;"><strong> </strong></p>
+<p style="text-align: center;"><strong> </strong><strong><em>Allergener vil være mærket på menuen med nummer / er man i tvivl kan man altid ringe til os.<br />1. Gluten, 2. Krebsdyr/skaldyr, 3. Æg, 4. Fisk, 5. Jordnødder, 6. Soja, 7.Mælk/Laktose, 8. Nødder, 9. Selleri, 10. Sennep, <br /></em><em>11. Sesamfrø, 12. Svovldioxid eller sulfitter over 10mg/kg, 13. Lupin, 14. Bløddyr</em><br /><br /><em>Vi kan oplyse yderligere om allergener i produkterne ved henvendelse til os.</em> <br /></strong></p>
+<p style="text-align: center;"><strong>Vi tager forbehold for ændringer og slåfejl</strong></p>        <hr class="smallFatHr" />
+        		
+
+    </div>
+        <div class="menu2">
+
+            <h2>Menu  UGE 16</h2>
+
+
+<h2 style="text-align: center;"><strong>Mandag<span> 15. april</span></strong></h2>
+<h3 style="text-align: center;"><strong>Kejserindens Buffet</strong></h3>
+<p style="text-align: center;"><strong>Salater<br /></strong>Græsk salat m. agurk, tomat &amp; oliven (7,15) <br />Jordskokkesalat med rugkerner, solsikkekerner &amp; feldsalat (1)<br />samt dressing<strong><br /></strong><br /><strong>Pålæg<br /></strong>Pastrami med baba ganoush &amp; sylt (16)<br />Leverpostej m. stegte svampe &amp; bacon (1,6,15)<br />Gammeldags hønsesalat med urter (3,7,10)<br />samt hjemmebagt franskbrød og rugbrød<strong><br /><br /></strong><strong>Varm ret<br /></strong>Kalvefrikassé m. ramsløgsris (7,9,15)<br /><strong><br /></strong><strong>Varm ret / minus gris<br /></strong>Kalvefrikassé m. ramsløgsris (7,9,15)<strong><br /><br /></strong><strong>Varm ret / vegetar <br /></strong>Frikassé med tofu &amp; ramsløgskartofler (6,7,9,10,15)</p>
+<h3 style="text-align: center;"><strong>Portions anrettet frokost</strong></h3>
+<p style="text-align: center;"><strong>Kold ret</strong><br />Croissant med grøn skinkesalat (1,3,7,10,15)</p>
+<p style="text-align: center;"><strong>Varm ret</strong><br />Kalvefrikassé m. ramsløgsris (7,9,15)</p>
+<p style="text-align: center;"><strong>Varm ret / minus gris</strong><br />Kalvefrikassé m. ramsløgsris (7,9,15)</p>
+<p style="text-align: center;"><strong>Varm ret / vegetar</strong><br />Frikassé med tofu &amp; ramsløgskartofler (6,7,9,10,15)</p>
+<p style="text-align: center;"><strong>Dagens alm.<span> </span>måltidssalat m.<br /></strong>Marineret kylling med jordskokkesalat (1,7,10)</p>
+<p style="text-align: center;"><strong>Dagens 3. stk. uspec. smørrebrød</strong></p>
+<p style="text-align: center;"><strong>Dagens Focacciasandwich<br /><br />Dagens Rugbrødssandwich</strong></p>
+<h2 style="text-align: center;"><strong>Tirsdag 16. april</strong></h2>
+<h3 style="text-align: center;"><strong>Kejserindens Buffet</strong></h3>
+<p style="text-align: center;"><strong>Salater<br /></strong>Bagt rosenkål med spinat <br />Mixed salat m. grillet squash i ramsløgsgremolata &amp; syltede løg (15,16)<br />samt dressing<strong><br /></strong><br /><strong>Pålæg<br /></strong>Ålerøget skinke med brie &amp; løgmarmelade (7,15)<br />Oksebryst med flødepeberrod (6,7,12)<br />Torskerognssalat med kapers &amp; ramsløg (3,4,7,10,15)<br />samt hjemmebagt franskbrød og rugbrød<strong><br /><br /></strong><strong>Varm ret<br /></strong>Thai wok m. nudler, kylling &amp; grøntsager (1,3,6,9,15)<br /><strong><br /></strong><strong>Varm ret / minus gris<br /></strong>Thai wok m. nudler, kylling &amp; grøntsager (1,3,6,9,15)<strong><br /><br /></strong><strong>Varm ret / vegetar <br /></strong>Thai wok m. nudler, æg &amp; grøntsager (1,3,6,9,15)<br /><br /></p>
+<h3 style="text-align: center;"><strong>Portions anrettet frokost</strong></h3>
+<p style="text-align: center;"><strong>Kold ret</strong><br />Rejemousse m. mixed salat &amp; dild creme, hertil brød (1,2,3,7,10)</p>
+<p style="text-align: center;"><strong>Varm ret</strong><br />Thai wok m. nudler, kylling &amp; grøntsager (1,3,6,9,15)</p>
+<p style="text-align: center;"><strong>Varm ret / minus gris</strong><br />Thai wok m. nudler, kylling &amp; grøntsager (1,3,6,9,15)</p>
+<p style="text-align: center;"><strong>Varm ret / vegetar</strong><br />Thai wok m. nudler, æg &amp; grøntsager (1,3,6,9,15)</p>
+<p style="text-align: center;"><strong>Dagens alm.<span> </span>måltidssalat m.</strong><br />Italiensk inspireret oksekød med grillet squash salat (1,7,15,16)</p>
+<p style="text-align: center;"><strong>Dagens Focacciasandwich<br /><br />Dagens Rugbrødssandwich</strong></p>
+<h2 style="text-align: center;"><strong>Onsdag 17. april</strong></h2>
+<h3 style="text-align: center;"><strong>Kejserindens Buffet</strong></h3>
+<p style="text-align: center;"><strong>Salater<br /></strong>Spidskålssalat m. mango<br />Linsesalat m. æble, kørvel &amp; rødbede<br />samt dressing<strong><br /></strong><br /><strong>Pålæg<br /></strong>Kylling på grøn bund m. ramsløgspesto &amp; parmesan (3,7,8,15,16) <br />Tun på grøn bund m. hakket løg, æg &amp; kapers (3,4,10,15) <br />Sommersalat m. radise (3,7,10)<br />samt hjemmebagt franskbrød og rugbrød<strong><br /><br /></strong><strong>Varm ret<br /></strong>Medister med varm kartoffelsalat &amp; sennep (1,3,7,10,15)<br /><strong><br /></strong><strong>Varm ret / minus gris<br /></strong>Oksemedister med varm kartoffelsalat o&amp; sennep (1,3,7,10,15)<strong><br /><br /></strong><strong>Varm ret / vegetar <br /></strong>Vegetarisk pølse med varm kartoffelsalat &amp; sennep (1,3,7,10,15)<strong><br /><br />Onsdagskage</strong><br />Rabarber muffin (1,3,7)</p>
+<h3 style="text-align: center;"><strong>Portions anrettet frokost</strong></h3>
+<p style="text-align: center;"><strong>Kold ret</strong><br />Bagekartoffel m. oksekød &amp; mixed salat samt creme fraiche (7,15)</p>
+<p style="text-align: center;"><strong>Varm ret</strong><br />Medister med varm kartoffelsalat &amp; sennep (1,3,7,10,15)</p>
+<p style="text-align: center;"><strong>Varm ret / minus gris</strong><br />Oksemedister med varm kartoffelsalat o&amp; sennep (1,3,7,10,15)</p>
+<p style="text-align: center;"><strong>Varm ret / vegetar</strong><br />Vegetarisk pølse med varm kartoffelsalat &amp; sennep (1,3,7,10,15)</p>
+<p style="text-align: center;"><strong>Dagens alm.<span> </span>måltidssalat m.<br /></strong>Rejer &amp; avokado med spidskål &amp; kikærter (1,2,7,16)<strong><br /></strong></p>
+<p style="text-align: center;"><strong>Dagens 3. stk. uspec. smørrebrød</strong></p>
+<p style="text-align: center;"><strong>Dagens Focacciasandwich<br /><br />Dagens Rugbrødssandwich</strong></p>
+<p style="text-align: center;"><strong> </strong></p>
+<h2 style="text-align: center;"><strong>Torsdag 18. april</strong></h2>
+<h3 style="text-align: center;"><strong>Kejserindens Buffet</strong></h3>
+<p style="text-align: center;"><strong>Salater<br /></strong>Salat m. selleri &amp; dadler samt appelsin (9)<br />Hvedekerner med kål, edamame, rødløg, let syltet rabarber &amp; croutons (1,6,15) <br />samt dressing<strong><br /></strong><br /><strong>Pålæg<br /></strong>1/2 æg m. Caviart/dild creme (3,4,7,10)<br />Roastbeef m. ristede løg, kartoffel &amp; ramsløgscreme (1,3,7,10,15)<br />Laksesalat (3,4,7,10)<br />samt hjemmebagt franskbrød og rugbrød<strong><br /><br /></strong><strong>Varm ret<br /></strong>Kalkuncuvette m. gratineret pasta &amp; sauce (1,3,7,16)<br /><strong><br /></strong><strong>Varm ret / minus gris<br /></strong>Kalkuncuvette m. gratineret pasta &amp; sauce (1,3,7,16)<strong><br /><br /></strong><strong>Varm ret / vegetar</strong><br />Lima bønnebøf m. gratineret pasta &amp; sauce (1,3,7,15,16)</p>
+<h3 style="text-align: center;"><strong>Portions anrettet frokost</strong></h3>
+<p style="text-align: center;"><strong>Kold ret</strong><br />Bagt spidskål m. syltede løg, salat, flankesteak, dressing &amp; brød (1,7,15)</p>
+<p style="text-align: center;"><strong>Varm ret</strong><br />Kalkuncuvette m. gratineret pasta &amp; sauce (1,3,7,16)</p>
+<p style="text-align: center;"><strong>Varm ret / minus gris</strong><br />Kalkuncuvette m. gratineret pasta &amp; sauce (1,3,7,16)</p>
+<p style="text-align: center;"><strong>Varm ret / vegetar</strong><br />Lima bønnebøf m. gratineret pasta &amp; sauce (1,3,7,15,16)</p>
+<p style="text-align: center;"><strong>Dagens alm.<span> </span>måltidssalat m.<br /></strong>Gris med hvedekernesalat (1,7,8,15,16)<strong><br /></strong></p>
+<p style="text-align: center;"><strong>Dagens 3. stk. uspec. smørrebrød</strong></p>
+<p style="text-align: center;"><strong>Dagens Focacciasandwich<br /><br />Dagens Rugbrødssandwich</strong></p>
+<p style="text-align: center;"><strong> </strong></p>
+<h2 style="text-align: center;"><strong>Fredag 19. april</strong></h2>
+<h3 style="text-align: center;"><strong>Kejserindens Buffet</strong></h3>
+<p style="text-align: center;"><strong>Salater<br /></strong>Squashsalat med forårsløg, løvstikke &amp; hvidløg (15,16) <br />Karrystegt blomkål med belugalinser &amp; rucola<br />samt dressing<strong><br /><br />Pålæg<br /></strong>Ingefærsild (3,4,7,10,15)<br />Spegeskinke med mango/melonsalsa (15) <br />Kyllingekebabsalat med belugalinser (1,3,6,7,9,10)<strong><br /></strong><span>samt hjemmebagt franskbrød og rugbrød</span><br /><br /><strong>Varm ret</strong><br />Hakkebøf med kartoffelbåde, ærter &amp; bearnaisecreme (3,10,15)<br /><br /><strong>Varm ret / minus gris<br /></strong>Hakkebøf med kartoffelbåde, ærter &amp; bearnaisecreme (3,10,15)<br /><strong><br />Varm ret / vegetar</strong><br />Falafelbøf med kartoffelbåde, ærter &amp; bearnaisecreme (1,3,9,10,15)</p>
+<p style="text-align: center;"><strong>Dessert</strong><br />Jordbærtrifli (1,7)</p>
+<h3 style="text-align: center;"><strong>Portions anrettet frokost</strong></h3>
+<p style="text-align: center;"><strong>Kold ret</strong><br />Tærte m. laks &amp; spinat, hertil blandet salat (1,3,4,7,15)<br /><br /><strong>Varm ret</strong><br />Hakkebøf med kartoffelbåde, ærter &amp; bearnaisecreme (3,10,15)<br /><br /><strong>Varm ret / minus gris<br /></strong>Hakkebøf med kartoffelbåde, ærter &amp; bearnaisecreme (3,10,15)<strong><br /><br />Varm ret / vegetar<br /></strong>Falafelbøf med kartoffelbåde, ærter &amp; bearnaisecreme (1,3,9,10,15)<strong><br /><br />Dagens alm.<span> </span>måltidssalat m.<br /></strong>Kylling &amp; bacon med karrystegt blomkålssalat (1,7)<strong><br /></strong></p>
+<p style="text-align: center;"><strong>Dagens 3. stk. uspec. smørrebrød</strong></p>
+<p style="text-align: center;"><strong>Dagens Focacciasandwich<br /><br />Dagens Rugbrødssandwich</strong></p>
+<p style="text-align: center;"><strong> </strong></p>
+<p style="text-align: center;"><strong> </strong><strong><em>Allergener vil være mærket på menuen med nummer / er man i tvivl kan man altid ringe til os.<br />1. Gluten, 2. Krebsdyr/skaldyr, 3. Æg, 4. Fisk, 5. Jordnødder, 6. Soja, 7.Mælk/Laktose, 8. Nødder, 9. Selleri, 10. Sennep, <br /></em><em>11. Sesamfrø, 12. Svovldioxid eller sulfitter over 10mg/kg, 13. Lupin, 14. Bløddyr</em><br /><br /><em>Vi kan oplyse yderligere om allergener i produkterne ved henvendelse til os.</em> <br /></strong></p>
+<p style="text-align: center;"><strong>Vi tager forbehold for ændringer og slåfejl</strong></p>            <hr class="smallFatHr" />
+                                </div>
+    		</article>
+<div class="relatedBox">
+    <h4>
+        Se også <i class="fa fa-arrow-right hidden-xs" aria-hidden="true"></i>
+    </h4>
+            <a href="/menu/sandwich">Sandwich</a>
+            <a href="/buffet">Buffet</a>
+            <a href="/smoerrebroed">Sm&#248;rrebr&#248;d</a>
+</div>
+
+
+
+
+
+                <script async type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js"></script>
+                <div class="trustpilot-widget" data-locale="da-DK" data-template-id="53aa8912dec7e10d38f59f36" data-businessunit-id="46907a66000064000500107e" data-style-height="130px" data-style-width="100%" data-theme="light" data-stars="4,5"></div>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footerContent">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h5>
+                            Kejserindens Gryder og Kokkeri A/S
+                        </h5>
+                        <p>
+                            Herstedøstervej 27-29<br />
+                            2620 Albertslund<br />
+                            T: <a href="tel:2166 6630">2166 6630</a><br />
+                            E: <a href="mailto:info@kejserindens-gryder.dk" onclick="ga('send', 'event', 'info@kejserindens-gryder.dk', 'click');">info@kejserindens-gryder.dk</a>
+                        </p>
+						<br>
+						<p>
+							Information om allergener i vores menuer, kan oplyses ved at kontakte os.<br><br>
+							<a href="https://kejserindens-gryder.dk/kontakt"><strong>Kontakt os her</strong></a>
+							
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="footerLinks">
+                            <a href="http://www.findsmiley.dk/96270" target="_blank"><img src="/media/1068/detail.jpg" /></a>
+                            <a href="http://www.findsmiley.dk/732465" target="_blank"><img src="/media/1069/engros.jpg" /></a>
+						</div">
+						<div class="footerLinks">
+						<a href="https://frokostoversigten.dk/" target="_blank">	
+							<img src="/media/1125/frokostoversigten_v2_600x180.png" width="35%" />
+						</a>
+						<a href="https://www.refood.dk/" target="_blank">	
+							<img src="/media/1133/daka_refood_rgb_redigeret.png" width="35%" />
+						</a>
+						
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="botFooter">
+            <div class="container">
+                <div class="footerContent">
+                    <span class="pSpan">
+                          | <a class="" href="/cookiepolitik">Cookiepolitik</a> | <a href="/sitemap">Sitemap</a>
+                    </span>
+
+                    <div class="FooterFb">
+                        <span class="pSpan">
+                            Find os på Facebook <img src="/images/smallArrow.png" />
+
+                        </span>
+
+                        <a href="https://www.facebook.com/KejserindensGryder/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+	<link href="/DependencyHandler.axd?s=L2Nzcy9ib290c3RyYXAubWluLmNzczsvY3NzL3N0eWxlLmNzczsvY3NzL3Jlc3BvbnNpdmUuY3NzOw&amp;t=Css&amp;cdv=88108" type="text/css" rel="stylesheet"/>
+	<link rel="stylesheet" type="text/css" href="/css/support.css">
+    <link href="/DependencyHandler.axd?s=L2Nzcy9ib290c3RyYXAubWluLmNzczsvY3NzL3N0eWxlLmNzczsvY3NzL3Jlc3BvbnNpdmUuY3NzOw&amp;t=Css&amp;cdv=88108" type="text/css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" lazyload>
+    <script src="/DependencyHandler.axd?s=L3NjcmlwdHMvanF1ZXJ5LTIuMi4zLm1pbi5qczsvc2NyaXB0cy9ib290c3RyYXAubWluLmpzOy9zY3JpcHRzL2N1c3RvbS5qczs&amp;t=Javascript&amp;cdv=88108" type="text/javascript"></script>
+    
+    <script>
+        $(document).ready(function () {
+            //Scroll to element
+            function scrollTo($trigger, $target) {
+                $trigger.on("click", function (e) {
+                    e.preventDefault();
+                    var body = $("html, body");
+
+                    body.stop().animate({ scrollTop: $target.offset().top }, 1000, 'swing', function () {
+
+                    });
+                });
+            }
+            // her indsættes de forskellige steder der skal scrolles til
+            scrollTo($("#menu1"), $(".menu1"));
+            scrollTo($("#menu2"), $(".menu2"));
+            scrollTo($("#menu3"), $(".menu3"));
+
+
+
+            bottom = $('.orderFood').offset().top;;
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > bottom) {
+                    $('.orderFood').addClass('fixed');
+                }
+                else {
+                    $('.orderFood').removeClass('fixed');
+                }
+            });
+        });
+    </script>
+
+    
+ 
+		
+
+<script type="text/plain" data-cookieconsent="marketing" type="text/javascript">
+    var _paq = _paq || [];
+    (function(){ var u=(("https:" == document.location.protocol) ? "https://tracker.leadenhancer.com/" : "http://tracker.leadenhancer.com/");
+        _paq.push(['setAccountId', '5bb3627a81dc81060fe8f51c']);
+        _paq.push(['setSiteId', '5bb362a581dc81060fe8f51e']);
+        _paq.push(['setTrackerUrl', u + 'trk/v1']);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0]; g.type='text/javascript'; g.defer=true; g.async=true; g.src=u+'static/t/v3/j.min.js';
+        s.parentNode.insertBefore(g,s); })();
+</script>
+		
+		<style>
+		
+		@media (max-width: 991px){
+			.rightSide .customBoxContent  article{
+			 	display: flex;
+				flex-direction: column-reverse;
+			}
+			a.menuBox{
+			background-repeat: no-repeat !important;
+	    	background-size: cover !important;
+			}
+		}
+		</style>
+
+
+
+	
+		
+		
+</body>
+</html>
