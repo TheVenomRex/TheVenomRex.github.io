@@ -8,3 +8,47 @@
 <p style="text-align: center;"><strong>Salater<br /></strong>Spidskålssalat m. mango<br />Linsesalat m. æble, kørvel &amp; rødbede<br />samt dressing<strong><br /></strong><br /><strong>Pålæg<br /></strong>Kylling på grøn bund m. ramsløgspesto &amp; parmesan (3,7,8,15,16) <br />Tun på grøn bund m. hakket løg, æg &amp; kapers (3,4,10,15) <br />Sommersalat m. radise (3,7,10)<br />samt hjemmebagt franskbrød og rugbrød<strong><br /><br /></strong><strong>Varm ret<br /></strong>Medister med varm kartoffelsalat &amp; sennep (1,3,7,10,15)<br /><strong><br /></strong><strong>Varm ret / minus gris<br /></strong>Oksemedister med varm kartoffelsalat o&amp; sennep (1,3,7,10,15)<strong><br /><br /></strong><strong>Varm ret / vegetar <br /></strong>Vegetarisk pølse med varm kartoffelsalat &amp; sennep (1,3,7,10,15)<strong><br /><br />Onsdagskage</strong><br />Rabarber muffin (1,3,7)</p>
 <p style="text-align: center;"><strong>Salater<br /></strong>Salat m. selleri &amp; dadler samt appelsin (9)<br />Hvedekerner med kål, edamame, rødløg, let syltet rabarber &amp; croutons (1,6,15) <br />samt dressing<strong><br /></strong><br /><strong>Pålæg<br /></strong>1/2 æg m. Caviart/dild creme (3,4,7,10)<br />Roastbeef m. ristede løg, kartoffel &amp; ramsløgscreme (1,3,7,10,15)<br />Laksesalat (3,4,7,10)<br />samt hjemmebagt franskbrød og rugbrød<strong><br /><br /></strong><strong>Varm ret<br /></strong>Kalkuncuvette m. gratineret pasta &amp; sauce (1,3,7,16)<br /><strong><br /></strong><strong>Varm ret / minus gris<br /></strong>Kalkuncuvette m. gratineret pasta &amp; sauce (1,3,7,16)<strong><br /><br /></strong><strong>Varm ret / vegetar</strong><br />Lima bønnebøf m. gratineret pasta &amp; sauce (1,3,7,15,16)</p>
 <p style="text-align: center;"><strong>Salater<br /></strong>Squashsalat med forårsløg, løvstikke &amp; hvidløg (15,16) <br />Karrystegt blomkål med belugalinser &amp; rucola<br />samt dressing<strong><br /><br />Pålæg<br /></strong>Ingefærsild (3,4,7,10,15)<br />Spegeskinke med mango/melonsalsa (15) <br />Kyllingekebabsalat med belugalinser (1,3,6,7,9,10)<strong><br /></strong><span>samt hjemmebagt franskbrød og rugbrød</span><br /><br /><strong>Varm ret</strong><br />Hakkebøf med kartoffelbåde, ærter &amp; bearnaisecreme (3,10,15)<br /><br /><strong>Varm ret / minus gris<br /></strong>Hakkebøf med kartoffelbåde, ærter &amp; bearnaisecreme (3,10,15)<br /><strong><br />Varm ret / vegetar</strong><br />Falafelbøf med kartoffelbåde, ærter &amp; bearnaisecreme (1,3,9,10,15)</p>
+
+ ---//
+ 
+Græsk salat m. agurk, tomat \& oliven (7,15) 
+Jordskokkesalat med rugkerner, solsikkekerner \& feldsalat (1)
+Pastrami med baba ganoush \& sylt (16)
+Leverpostej m. stegte svampe \& bacon (1,6,15)
+Gammeldags hønsesalat med urter (3,7,10)
+Kalvefrikassé m. ramsløgsris (7,9,15)
+Kalvefrikassé m. ramsløgsris (7,9,15)
+Frikassé med tofu \& ramsløgskartofler (6,7,9,10,15)
+Bagt rosenkål med spinat 
+Mixed salat m. grillet squash i ramsløgsgremolata \& syltede løg (15,16)
+Ålerøget skinke med brie \& løgmarmelade (7,15)
+Oksebryst med flødepeberrod (6,7,12)
+Torskerognssalat med kapers \& ramsløg (3,4,7,10,15)
+Thai wok m. nudler, kylling \& grøntsager (1,3,6,9,15)
+Thai wok m. nudler, kylling \& grøntsager (1,3,6,9,15)
+Thai wok m. nudler, æg \& grøntsager (1,3,6,9,15)
+Spidskålssalat m. mango
+Linsesalat m. æble, kørvel \& rødbede
+Kylling på grøn bund m. ramsløgspesto \& parmesan (3,7,8,15,16) 
+Tun på grøn bund m. hakket løg, æg \& kapers (3,4,10,15) 
+Sommersalat m. radise (3,7,10)
+Medister med varm kartoffelsalat \& sennep (1,3,7,10,15)
+Oksemedister med varm kartoffelsalat o\& sennep (1,3,7,10,15)
+Vegetarisk pølse med varm kartoffelsalat \& sennep (1,3,7,10,15)
+Rabarber muffin (1,3,7)
+Salat m. selleri \& dadler samt appelsin (9)
+Hvedekerner med kål, edamame, rødløg, let syltet rabarber \& croutons (1,6,15) 
+1/2 æg m. Caviart/dild creme (3,4,7,10)
+Roastbeef m. ristede løg, kartoffel \& ramsløgscreme (1,3,7,10,15)
+Laksesalat (3,4,7,10)
+Kalkuncuvette m. gratineret pasta \& sauce (1,3,7,16)
+Kalkuncuvette m. gratineret pasta \& sauce (1,3,7,16)
+Lima bønnebøf m. gratineret pasta \& sauce (1,3,7,15,16)
+Squashsalat med forårsløg, løvstikke \& hvidløg (15,16) 
+Karrystegt blomkål med belugalinser \& rucola
+Ingefærsild (3,4,7,10,15)
+Spegeskinke med mango/melonsalsa (15) 
+Kyllingekebabsalat med belugalinser (1,3,6,7,9,10)
+Hakkebøf med kartoffelbåde, ærter \& bearnaisecreme (3,10,15)
+Hakkebøf med kartoffelbåde, ærter \& bearnaisecreme (3,10,15)
+Falafelbøf med kartoffelbåde, ærter \& bearnaisecreme (1,3,9,10,15)
