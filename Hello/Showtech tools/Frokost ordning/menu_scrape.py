@@ -113,9 +113,9 @@ for idi, i in enumerate(testMenu):
     etempAlg.clear()
 
     testMenu[idi] = re.sub(r"\(.*?\)","",i)    
-    menuSnip.write(i + "\n")                #slet
-    menuSnip.write(algDansk[idi] + "\n")    #slet
-    menuSnip.write(algEnglish[idi] + "\n")  #slet
+   # menuSnip.write(i + "\n")                #slet
+  #  menuSnip.write(algDansk[idi] + "\n")    #slet
+  #  menuSnip.write(algEnglish[idi] + "\n")  #slet
 menuSnip.close                              #slet
 with open("template menu.txt","r") as file:
     template = file.readlines()
@@ -257,3 +257,7 @@ template[438] = algEnglish[25] + "\n"
 
 with open("template 16.txt", "w") as file:
     file.writelines(template)
+
+with open("menu snip uge 16.txt", "a") as file:
+    file.write("\n\n")
+    file.write("\n".join(testMenu))
