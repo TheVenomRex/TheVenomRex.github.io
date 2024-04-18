@@ -83,357 +83,357 @@ And homemade French bread and rye bread
 % Mandag
 % Salater dansk
 \newcommand{\salatAdMan}{
-Græsk salat m. agurk, tomat \& oliven  
+Hvidkålssalat 
 }
 \newcommand{\allergenSAdMan}{
-\algG, \algO
+N/A
 }
 % --//--
 \newcommand{\salatBdMan}{
-Jordskokkesalat med rugkerner, solsikkekerner \& feldsalat 
+Perlebygsalat i rød pesto med porre og syltede løg  
 }
 \newcommand{\allergenSBdMan}{
-\algA
+\algA, \algC, \algG, \algH, \algO, \algP
 }
 % Salater engelsk
 \newcommand{\salatAeMan}{
-Greek salad with cucumber, tomato \& olives
+White cabbage salad
 }
 \newcommand{\allergenSAeMan}{
-\algGe, \algOe
+N/A
 }
 % --//--
 \newcommand{\salatBeMan}{
-Jerusalem artichoke salad with rye grains, sunflower seeds \& lamb's lettuce
+Pearl barley salad in red pesto with leek and pickled onions
 } 
 \newcommand{\allergenSBeMan}{
-\algAe
+\algAe, \algCe, \algGe, \algHe, \algOe, \algPe
 }
 
 % Pålæg Dansk
 \newcommand{\paalaegAdMan}{
-Pastrami med baba ganoush \& sylt 
+Dyrlægens natmad 
 }
 \newcommand{\allergenPAdMan}{
-\algP
+\algA, \algF, \algG, \algO
 }
 % --//--
 \newcommand{\paalaegBdMan}{
-Leverpostej m. stegte svampe \& bacon 
+Kalkun m. chilimayo og pigment 
 }
 \newcommand{\allergenPBdMan}{
-\algA, \algF, \algO
+\algC, \algJ
 }
 % --//--
 \newcommand{\paalaegCdMan}{
-Gammeldags hønsesalat med urter 
+Bornholmersalat 
 }
 \newcommand{\allergenPCdMan}{
-\algC, \algG, \algJ
+\algC, \algD, \algG, \algJ, \algO
 }
 % Pålæg Engelsk
 \newcommand{\paalaegAeMan}{
-Pastrami with baba ganoush \& jam
+The vet's bedtime snack
 }
 \newcommand{\allergenPAeMan}{
-\algPe
+\algAe, \algFe, \algGe, \algOe
 }
 % --//--
 \newcommand{\paalaegBeMan}{
-Liver pate with fried mushrooms \& bacon
+Turkey with chilli mayo and pigment
 }
 \newcommand{\allergenPBeMan}{
-\algAe, \algFe, \algOe
+\algCe, \algJe
 }
 % --//--
 \newcommand{\paalaegCeMan}{
-Old-fashioned chicken salad with herbs
+Bornholm salad
 }
 \newcommand{\allergenPCeMan}{
-\algCe, \algGe, \algJe
+\algCe, \algDe, \algGe, \algJe, \algOe
 }
 % --//--
 % Varmret Dansk
 \newcommand{\VarmAdMan}{
-Kalvefrikassé m. ramsløgsris 
+Kalv sauté marengo m. pasta 
 }
 \newcommand{\allergenVAdMan}{
-\algG, \algI, \algO
+\algA, \algC, \algL, \algO
 }
 % - gris
 \newcommand{\VarmumAdMan}{
-Kalvefrikassé m. ramsløgsris 
+Kalv sauté marengo m. pasta 
 }
 \newcommand{\allergenVumAdMan}{
-\algG, \algI, \algO
+\algA, \algC, \algL, \algO
 }
 % Vegetar 
 \newcommand{\VarmvegAdMan}{
-Frikassé med tofu \& ramsløgskartofler 
+Greens sauté marengo m. pasta 
 }
 \newcommand{\allergenVegAdMan}{
-\algF, \algG, \algI, \algJ, \algO
+\algA, \algC, \algI, \algL, \algO
 }
 % Varmret engelsk
 \newcommand{\VarmAeMan}{
-Veal fricassee with wild onion rice
+Veal saut�ed meringue with pasta
 }
 \newcommand{\allergenVAeMan}{
-\algGe, \algIe, \algOe
+\algAe, \algCe, \algLe, \algOe
 }
 % - gris
 \newcommand{\VarmumAeMan}{
-Veal fricassee with wild onion rice
+Veal saut�ed meringue with pasta
 }
 \newcommand{\allergenVumAeMan}{
-\algGe, \algIe, \algOe
+\algAe, \algCe, \algLe, \algOe
 }
 % Vegetar 
 \newcommand{\VarmvegAeMan}{
-Fricassee with tofu \& ramson potatoes
+Saut�ed greens meringue with pasta
 }
 \newcommand{\allergenVegAeMan}{
-\algFe, \algGe, \algIe, \algJe, \algOe
+\algAe, \algCe, \algIe, \algLe, \algOe
 }
 
 %
 % Tirsdag
 % Salater dansk
 \newcommand{\salatAdTir}{
-Bagt rosenkål med spinat 
+Rødbede møder rødkål
 }
 \newcommand{\allergenSAdTir}{
 N/A
 }
 % --//--
 \newcommand{\salatBdTir}{
-Mixed salat m. grillet squash i ramsløgsgremolata \& syltede løg 
+Grøn salat med belugalinser, pærer og valnødder 
 }
 \newcommand{\allergenSBdTir}{
-\algO, \algP
+\algH
 }
 % Salater engelsk
 \newcommand{\salatAeTir}{
-Baked Brussels sprouts with spinach
+Red beds meet red cabbages
 }
 \newcommand{\allergenSAeTir}{
 N/A
 }
 % --//--
 \newcommand{\salatBeTir}{
-Mixed salad with grilled courgette in wild onion gremolata \& pickled onions
+Green salad with beluga lentils, pears and walnuts
 } 
 \newcommand{\allergenSBeTir}{
-\algOe, \algPe
+\algHe
 }
 % Pålæg Dansk
 \newcommand{\paalaegAdTir}{
-Ålerøget skinke med brie \& løgmarmelade 
+Sol over gudhjem 
 }
 \newcommand{\allergenPAdTir}{
-\algG, \algO
+\algC, \algD, \algO
 }
 % --//--
 \newcommand{\paalaegBdTir}{
-Oksebryst med flødepeberrod 
+Spegepølse m. remoulade \& ristede løg  
 }
 \newcommand{\allergenPBdTir}{
-\algF, \algG, \algL
+\algA, \algC, \algJ, \algO, \algP
 }
 % --//--
 \newcommand{\paalaegCdTir}{
-Torskerognssalat med kapers \& ramsløg 
+Kalkunsalat med ananas og peberstrimler 
 }
 \newcommand{\allergenPCdTir}{
-\algC, \algD, \algG, \algJ, \algO
+\algC, \algG, \algJ
 }
 % Pålæg Engelsk
 \newcommand{\paalaegAeTir}{
-Onion smoked ham with brie \& onion marmalade
+Sun over God's house
 }
 \newcommand{\allergenPAeTir}{
-\algGe, \algOe
+\algCe, \algDe, \algOe
 }
 % --//--
 \newcommand{\paalaegBeTir}{
-Beef brisket with horseradish
+Fried chicken with remoulade \& roasted onions
 }
 \newcommand{\allergenPBeTir}{
-\algFe, \algGe, \algLe
+\algAe, \algCe, \algJe, \algOe, \algPe
 }
 % --//--
 \newcommand{\paalaegCeTir}{
-Cod roe salad with capers \& wild onions
+Turkey salad with pineapple and pepper strips
 }
 \newcommand{\allergenPCeTir}{
-\algCe, \algDe, \algGe, \algJe, \algOe
+\algCe, \algGe, \algJe
 }
 % Varmret Dansk
 \newcommand{\VarmAdTir}{
-Thai wok m. nudler, kylling \& grøntsager 
+Barbecue kylling m. ris og pebersauté 
 }
 \newcommand{\allergenVAdTir}{
-\algA, \algC, \algF, \algI, \algO
+\algI, \algJ, \algO
 }
 % - gris
 \newcommand{\VarmumAdTir}{
-Thai wok m. nudler, kylling \& grøntsager 
+Barbecue kylling m. ris og pebersauté 
 }
 \newcommand{\allergenVumAdTir}{
-\algA, \algC, \algF, \algI, \algO
+\algI, \algJ, \algO
 }
 % Vegetar 
 \newcommand{\VarmvegAdTir}{
-Thai wok m. nudler, æg \& grøntsager 
+Selleristicks med ris og pebersaut� 
 }
 \newcommand{\allergenVegAdTir}{
-\algA, \algC, \algF, \algI, \algO
+\algA, \algC, \algG, \algI, \algJ, \algO
 }
 % Varmret engelsk
 \newcommand{\VarmAeTir}{
-Thai wok with noodles, chicken & vegetables
+Barbecue chicken with rice and chilli peppers
 }
 \newcommand{\allergenVAeTir}{
-\algAe, \algCe, \algFe, \algIe, \algOe
+\algIe, \algJe, \algOe
 }
 % - gris
 \newcommand{\VarmumAeTir}{
-Thai wok with noodles, chicken & vegetables
+Barbecue chicken with rice and chilli peppers
 }
 \newcommand{\allergenVumAeTir}{
-\algAe, \algCe, \algFe, \algIe, \algOe
+\algIe, \algJe, \algOe
 }
 % Vegetar 
 \newcommand{\VarmvegAeTir}{
-Thai wok with noodles, eggs & vegetables
+Celery sticks with rice and pepper saut�
 }
 \newcommand{\allergenVegAeTir}{
-\algAe, \algCe, \algFe, \algIe, \algOe
+\algAe, \algCe, \algGe, \algIe, \algJe, \algOe
 }
 
 % Onsdag
 % Salater dansk
 \newcommand{\salatAdOns}{
-Spidskålssalat m. mango
+Tomat/spinat salat 
 }
 \newcommand{\allergenSAdOns}{
-N/A
+\algG, \algO
 }
 % --//--
 \newcommand{\salatBdOns}{
-Linsesalat m. æble, kørvel \& rødbede
+Grillede gulerødder med ramsløgscremolata, sorte bønner og springløg  
 }
 \newcommand{\allergenSBdOns}{
-N/A
+\algO, \algP
 }
 % Salater engelsk
 \newcommand{\salatAeOns}{
-Cumin salad with mango
+Tomato/spinach salad
 }
 \newcommand{\allergenSAeOns}{
-N/A
+\algGe, \algOe
 }
 % --//--
 \newcommand{\salatBeOns}{
-Lentil salad with apple, chervil \& beetroot
+Grilled carrots with wild onion cremolata, black beans and spring onions
 } 
 \newcommand{\allergenSBeOns}{
-N/A
+\algOe, \algPe
 }
 % Pålæg Dansk
 \newcommand{\paalaegAdOns}{
-Kylling på grøn bund m. ramsløgspesto \& parmesan  
+Roastbeef med bløde løg og bagte små tomater 
 }
 \newcommand{\allergenPAdOns}{
-\algC, \algG, \algH, \algO, \algP
+\algO
 }
 % --//--
 \newcommand{\paalaegBdOns}{
-Tun på grøn bund m. hakket løg, æg \& kapers  
+Italiensk pølse m. artiskok \& oliven mix 
 }
 \newcommand{\allergenPBdOns}{
-\algC, \algD, \algJ, \algO
+\algP
 }
 % --//--
 \newcommand{\paalaegCdOns}{
-Sommersalat m. radise 
+Æggesalat 
 }
 \newcommand{\allergenPCdOns}{
-\algC, \algG, \algJ
+\algC, \algG, \algJ, \algO
 }
 % Pålæg Engelsk
 \newcommand{\paalaegAeOns}{
-Chicken on a green base with wild onion pesto \& parmesan
+Roast beef with soft onions and baked baby tomatoes
 }
 \newcommand{\allergenPAeOns}{
-\algCe, \algGe, \algHe, \algOe, \algPe
+\algOe
 }
 % --//--
 \newcommand{\paalaegBeOns}{
-Tuna on a green base with chopped onions, eggs & capers
+Italian sausage with artichoke \& olive mix
 }
 \newcommand{\allergenPBeOns}{
-\algCe, \algDe, \algJe, \algOe
+\algPe
 }
 % --//--
 \newcommand{\paalaegCeOns}{
-Summer salad with radish
+Egg salad
 }
 \newcommand{\allergenPCeOns}{
-\algCe, \algGe, \algJe
+\algCe, \algGe, \algJe, \algOe
 }
 % Varmret Dansk
 \newcommand{\VarmAdOns}{
-Medister med varm kartoffelsalat \& sennep 
+Spidsbryst med peberrodssauce, kartofler og stegt broccoli 
 }
 \newcommand{\allergenVAdOns}{
-\algA, \algC, \algG, \algJ, \algO
+\algG, \algL
 }
 % - gris
 \newcommand{\VarmumAdOns}{
-Oksemedister med varm kartoffelsalat o\& sennep 
+Spidsbryst med peberrodssauce, kartofler og stegt broccoli 
 }
 \newcommand{\allergenVumAdOns}{
-\algA, \algC, \algG, \algJ, \algO
+\algG, \algL
 }
 % Vegetar 
 \newcommand{\VarmvegAdOns}{
-Vegetarisk pølse med varm kartoffelsalat \& sennep 
+Knusperschnitzel med peberrodssauce, kartofler og stegt broccoli 
 }
 \newcommand{\allergenVegAdOns}{
-\algA, \algC, \algG, \algJ, \algO
+\algA, \algG, \algL
 }
 % Varmret engelsk
 \newcommand{\VarmAeOns}{
-Medister with warm potato salad \& mustard
+Brisket with horseradish sauce, potatoes and roasted broccoli
 }
 \newcommand{\allergenVAeOns}{
-\algAe, \algCe, \algGe, \algJe, \algOe
+\algGe, \algLe
 }
 % - gris
 \newcommand{\VarmumAeOns}{
-Beef tenderloin with warm potato salad and mustard
+Brisket with horseradish sauce, potatoes and roasted broccoli
 }
 \newcommand{\allergenVumAeOns}{
-\algAe, \algCe, \algGe, \algJe, \algOe
+\algGe, \algLe
 }
 % Vegetar 
 \newcommand{\VarmvegAeOns}{
-Vegetarian sausage with warm potato salad \& mustard
+Crispy schnitzel with horseradish sauce, potatoes and fried broccoli
 }
 \newcommand{\allergenVegAeOns}{
-\algAe, \algCe, \algGe, \algJe, \algOe
+\algAe, \algGe, \algLe
 }
 % Onsdagskage dansk
 \newcommand{\onsdagskage}{
-Rabarber muffin 
+Gulerods kage med ostecreme 
 }
 \newcommand{\allergenKage}{
 \algA, \algC, \algG
 }
 % Engelsk
 \newcommand{\onsdagskageE}{
-Rhubarb muffin
+Carrot cake with cheese cream
 }
 \newcommand{\allergenKageE}{
 \algAe, \algCe, \algGe
@@ -441,229 +441,229 @@ Rhubarb muffin
 % Torsdag
 % Salater dansk
 \newcommand{\salatAdTor}{
-Salat m. selleri \& dadler samt appelsin 
+Spinatsalat med stegt aubergine og soltørret tomat 
 }
 \newcommand{\allergenSAdTor}{
-\algI
+N/A
 }
 % --//--
 \newcommand{\salatBdTor}{
-Hvedekerner med kål, edamame, rødløg, let syltet rabarber \& croutons  
+Tabbouleh 
 }
 \newcommand{\allergenSBdTor}{
-\algA, \algF, \algO
+\algA, \algO
 }
 % Salater engelsk
 \newcommand{\salatAeTor}{
-Salad with celery \& dates and orange
+Spinach salad with roasted aubergine and sun-dried tomato
 }
 \newcommand{\allergenSAeTor}{
-\algIe
+N/A
 }
 % --//--
 \newcommand{\salatBeTor}{
-Wheat kernels with cabbage, edamame, red onion, lightly pickled rhubarb \& croutons
+Tabbouleh
 } 
 \newcommand{\allergenSBeTor}{
-\algAe, \algFe, \algOe
+\algAe, \algOe
 }
 % Pålæg Dansk
 \newcommand{\paalaegAdTor}{
-1/2 æg m. Caviart/dild creme 
+Kylling m. karrycreme \& bacon 
 }
 \newcommand{\allergenPAdTor}{
-\algA, \algB, \algC, \algD, \algG, \algJ
+\algC, \algG, \algJ
 }
 % --//--
 \newcommand{\paalaegBdTor}{
-Roastbeef m. ristede løg, kartoffel \& ramsløgscreme 
+Røget okseinderlår m. røræg 
 }
 \newcommand{\allergenPBdTor}{
-\algA, \algC, \algG, \algJ, \algO
+\algC, \algG
 }
 % --//--
 \newcommand{\paalaegCdTor}{
-Laksesalat 
+Wienersalat 
 }
 \newcommand{\allergenPCdTor}{
-\algC, \algD, \algG, \algJ
+\algC, \algF, \algG, \algJ, \algO
 }
 % Pålæg Engelsk
 \newcommand{\paalaegAeTor}{
-1/2 egg with Caviart/dill cream
+Chicken with curry cream \& bacon
 }
 \newcommand{\allergenPAeTor}{
-\algAe, \algBe, \algCe, \algDe, \algGe, \algJe
+\algCe, \algGe, \algJe
 }
 % --//--
 \newcommand{\paalaegBeTor}{
-Roast beef with roasted onions, potato \& wild onion cream
+Smoked beef sirloin with smoke smoke smoke
 }
 \newcommand{\allergenPBeTor}{
-\algAe, \algCe, \algGe, \algJe, \algOe
+\algCe, \algGe
 }
 % --//--
 \newcommand{\paalaegCeTor}{
-Salmon salad
+Viennese salad
 }
 \newcommand{\allergenPCeTor}{
-\algCe, \algDe, \algGe, \algJe
+\algCe, \algFe, \algGe, \algJe, \algOe
 }
 % Varmret Dansk
 \newcommand{\VarmAdTor}{
-Kalkuncuvette m. gratineret pasta \& sauce 
+Grøn thai karry med kalkun og vildrisblanding 
 }
 \newcommand{\allergenVAdTor}{
-\algA, \algC, \algG, \algP
+\algB, \algD, \algG, \algO, \algP
 }
 % - gris
 \newcommand{\VarmumAdTor}{
-Kalkuncuvette m. gratineret pasta \& sauce 
+Grøn thai karry med kalkun og vildrisblanding 
 }
 \newcommand{\allergenVumAdTor}{
-\algA, \algC, \algG, \algP
+\algB, \algD, \algG, \algO, \algP
 }
 % Vegetar 
 \newcommand{\VarmvegAdTor}{
-Lima bønnebøf m. gratineret pasta \& sauce 
+Grøn thai karry med Nochicken og vildrisblanding 
 }
 \newcommand{\allergenVegAdTor}{
-\algA, \algC, \algG, \algO, \algP
+\algF, \algG, \algO, \algP
 }
 % Varmret engelsk
 \newcommand{\VarmAeTor}{
-Turkey cuvette w. gratinated pasta \& sauce
+Thai green curry with turkey and wild rice mix
 }
 \newcommand{\allergenVAeTor}{
-\algAe, \algCe, \algGe, \algPe
+\algBe, \algDe, \algGe, \algOe, \algPe
 }
 % - gris
 \newcommand{\VarmumAeTor}{
-Turkey cuvette w. gratinated pasta \& sauce
+Thai green curry with turkey and wild rice mix
 }
 \newcommand{\allergenVumAeTor}{
-\algAe, \algCe, \algGe, \algPe
+\algBe, \algDe, \algGe, \algOe, \algPe
 }
 % Vegetar 
 \newcommand{\VarmvegAeTor}{
-Lima bean steak with gratinated pasta \& sauce
+Thai green curry with Nochicken and wild rice mix
 }
 \newcommand{\allergenVegAeTor}{
-\algAe, \algCe, \algGe, \algOe, \algPe
+\algFe, \algGe, \algOe, \algPe
 }
 
 % Fredag
 % Salater dansk
 \newcommand{\salatAdFre}{
-Squashsalat med forårsløg, løvstikke \& hvidløg  
+Grøn bønnesalat 
 }
 \newcommand{\allergenSAdFre}{
-\algO, \algP
+\algJ, \algO
 }
 % --//--
 \newcommand{\salatBdFre}{
-Karrystegt blomkål med belugalinser \& rucola
+Karry ristet kikærtesalat
 }
 \newcommand{\allergenSBdFre}{
 N/A
 }
 % Salater engelsk
 \newcommand{\salatAeFre}{
-Courgette salad with spring onions, lovage \& garlic
+Green bean salad
 }
 \newcommand{\allergenSAeFre}{
-\algOe, \algPe
+\algJe, \algOe
 }
 % --//--
 \newcommand{\salatBeFre}{
-Curried cauliflower with beluga lentils \& rocket
+Curry roasted chickpea salad
 } 
 \newcommand{\allergenSBeFre}{
 N/A
 }
 % Pålæg Dansk
 \newcommand{\paalaegAdFre}{
-Ingefærsild 
+Æg med rejer og mayo 
 }
 \newcommand{\allergenPAdFre}{
-\algC, \algD, \algG, \algJ, \algO
+\algB, \algC, \algJ
 }
 % --//--
 \newcommand{\paalaegBdFre}{
-Spegeskinke med mango/melonsalsa  
+Kalkun Vitello Rosso 
 }
 \newcommand{\allergenPBdFre}{
-\algO
+\algG
 }
 % --//--
 \newcommand{\paalaegCdFre}{
-Kyllingekebabsalat med belugalinser 
+Fuglekvidder 
 }
 \newcommand{\allergenPCdFre}{
-\algA, \algC, \algF, \algG, \algI, \algJ
+\algC, \algG, \algJ, \algO
 }
 % Pålæg Engelsk
 \newcommand{\paalaegAeFre}{
-Ginger herring
+Eggs with prawns and mayo
 }
 \newcommand{\allergenPAeFre}{
-\algCe, \algDe, \algGe, \algJe, \algOe
+\algBe, \algCe, \algJe
 }
 % --//--
 \newcommand{\paalaegBeFre}{
-Prosciutto with mango/melon salsa
+Turkey Vitello Rosso
 }
 \newcommand{\allergenPBeFre}{
-\algOe
+\algGe
 }
 % --//--
 \newcommand{\paalaegCeFre}{
-Chicken kebab salad with beluga lentils
+Bird chirping
 }
 \newcommand{\allergenPCeFre}{
-\algAe, \algCe, \algFe, \algGe, \algIe, \algJe
+\algCe, \algGe, \algJe, \algOe
 }
 % Varmret Dansk
 \newcommand{\VarmAdFre}{
-Hakkebøf med kartoffelbåde, ærter \& bearnaisecreme 
+Biksemad med rødder, okse, HP sauce, rødbeder og brun sauce 
 }
 \newcommand{\allergenVAdFre}{
-\algC, \algJ, \algO
+\algA, \algC, \algG, \algI, \algJ, \algO
 }
 % - gris
 \newcommand{\VarmumAdFre}{
-Hakkebøf med kartoffelbåde, ærter \& bearnaisecreme 
+Biksemad med rødder, okse, HP sauce, rødbeder og brun sauce 
 }
 \newcommand{\allergenVumAdFre}{
-\algC, \algJ, \algO
+\algA, \algC, \algG, \algI, \algJ, \algO
 }
 % Vegetar 
 \newcommand{\VarmvegAdFre}{
-Falafelbøf med kartoffelbåde, ærter \& bearnaisecreme 
+Biksemad med rødder, Nomeat, HP sauce, rødbeder og brun sauce 
 }
 \newcommand{\allergenVegAdFre}{
-\algA, \algC, \algI, \algJ, \algO
+\algA, \algC, \algF, \algG, \algI, \algJ, \algO
 }
 % Varmret engelsk
 \newcommand{\VarmAeFre}{
-Minced beef with potato wedges, peas \& b�arnaise cream
+Biscuits with beetroot, beef, HP sauce, beetroot and brown sauce
 }
 \newcommand{\allergenVAeFre}{
-\algCe, \algJe, \algOe
+\algAe, \algCe, \algGe, \algIe, \algJe, \algOe
 }
 % - gris
 \newcommand{\VarmumAeFre}{
-Minced beef with potato wedges, peas \& b�arnaise cream
+Biscuits with beetroot, beef, HP sauce, beetroot and brown sauce
 }
 \newcommand{\allergenVumAeFre}{
-\algCe, \algJe, \algOe
+\algAe, \algCe, \algGe, \algIe, \algJe, \algOe
 }
 % Vegetar 
 \newcommand{\VarmvegAeFre}{
-Falafel steak with potato wedges, peas \& bearnaise cream
+Biscuits with beetroot, Nomeat, HP sauce, beetroot and brown sauce
 }
 \newcommand{\allergenVegAeFre}{
-\algAe, \algCe, \algIe, \algJe, \algOe
+\algAe, \algCe, \algFe, \algGe, \algIe, \algJe, \algOe
 }
 %
 % --//--||--\\--||--//--||--\\--||--//--||--\\--||--//--||--
