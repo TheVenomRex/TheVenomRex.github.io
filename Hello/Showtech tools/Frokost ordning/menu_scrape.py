@@ -1,23 +1,11 @@
 import re                           # RE for searching thorugh the gathered text
 from urllib.request import urlopen  # Urlopen for getting the text
 import deepl                        # Deepl for Api translation to english
-# urlopen gets the text, 
-# re gets the tools to search it
 url = "https://kejserindens-gryder.dk/frokostordning/ugens-menu"
-
-page = urlopen(url)
-html = page.read().decode('cp1252','backslashreplace')
-#html now has the raw text of the page
-#now to find and save the strings for each day
-#looking = open("html menu 15-16 v2.txt", "a")
-#looking.write(html)
-#looking.close
-#Temp data handeling, streamline later
-# 
-#snips = open("html menu 15-16 v2.txt", "r").read()
+page = urlopen(url)                                     #page has the code for the website
+html = page.read().decode('cp1252','backslashreplace')  #html now has the raw text of the page
 listPattern = "<p.*Salater.*</p>"
-subSnip = re.findall(listPattern,html) #sub snips with html
-
+subSnip = re.findall(listPattern,html)                  #find and save the strings for each day
 #cleaning the list
 testMenu = []
 for x in subSnip[5:]:
@@ -25,9 +13,9 @@ for x in subSnip[5:]:
     x = re.sub("<br />","\n",x)
     x = re.sub("<.*?>","",x)
     testMenu.extend(re.findall(r"\n(.+)",x))
+testMenu.insert(24,"Pasta carbonara med kalkunbacon (1,3,7,15)")
+testMenu.insert(25,"Pasta carbonara med revet rodfrugter og chicken no chicken(1,3,6,7,15)")
 
-testMenu.insert(26,"Selleristicks med ris og pebersauté (1,3,7,9,10,15)")
-testMenu.insert(26,"Selleristicks med ris og pebersauté (1,3,7,9,10,15)")
 ## Time to clean
 #Friday
 del testMenu[-2]
@@ -46,8 +34,8 @@ del testMenu[-20]
 del testMenu[-22:-20]
 del testMenu[-25:-23]
 #Tuesday
-del testMenu[-27]
-del testMenu[-28]
+#del testMenu[-27]
+#del testMenu[-28]
 del testMenu[-30:-28]
 del testMenu[-33:-31]
 #Monday
@@ -56,9 +44,11 @@ del testMenu[-36]
 del testMenu[-38:-36]
 del testMenu[-41:-39]
 ## Menu is cleaned to only relevant lines
-# Now to partition line and allegens
-# Make a new list for the allergens
 
+testMenu[12] = 'ForÃ¥rssalat med rygeost og kalkun (3,6,7,10,15)'
+testMenu[20] = 'Kejserindens pÃ¸lsesalat (3,6,7,10,15)'
+
+# Make a new list for the allergens
 allAlgDansk =[r"\algA",
               r"\algB",
               r"\algC",
@@ -100,7 +90,6 @@ etestMenu =  []
 #Translation by DeepL API, 
 auth_key = "d817f7ec-5e15-4662-9380-0efcae84f25f:fx"
 translator = deepl.Translator(auth_key)
-
 
 for idi, i in enumerate(testMenu):
     temp = re.findall(r"\d+",i)
@@ -340,9 +329,9 @@ template[662] =  etestMenu[40] + "\n"
 template[665] = algEnglish[40] + "\n"
 #Friday done
 
-with open("template 17.txt", "a") as file:
+with open("template 18.txt", "a") as file:
     file.writelines(template)
 
-with open("menu snip uge 17.txt", "a") as file:
+with open("menu snip.txt", "a") as file:
     file.write("\n\n" + "\n".join(testMenu))
     file.write("\n\n" + "\n".join(etestMenu))
