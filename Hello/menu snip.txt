@@ -1,167 +1,53 @@
-Kålsalat med ramsløg 
-Haricot verts med syltet rødløg og couscous  
-Skinke med røræg og grønne asparges  
-Pastrami med pickles og ristede løg 
-Okse i karry salat 
-Tikka Masala m. ris 
-Tikka Masala m. ris 
-Chana  Masala 
-Squash salat med springløg, løvstikke og hvidløg  
-Speltkernesalat med porre, rucola og tomat 
-Leverpostej med syltet rødbede 
-Roastbeef med estragoncreme og stegte gulerodskløfter  
-Forårssalat med rygeost og kalkun (3,6,7,10,15
-Pasta carbonara 
-Pasta carbonara med kalkunbacon 
-Pasta carbonara med revet rodfrugter og chicken no chicken
-Sesamstegt knoldselleri med karse, tomat og spidskål  
-Hvidløgsristet broccolisalat med sorte bønner  
-Stærk kalkun med relish 
-Gravad okseinderlår med jordskokpuré og tyttebær  
-Kejserindens pølsesalat (3,6,7,10,15
-Frikadeller  m. stuvede hvidkål \& kartofler 
-Kyllingefrikadeller m. stuvede hvidkål \& kartofler 
-Selleristicks m. stuvede hvidkål \& kartofler 
-Kokostoppe 
-Mixed salat m. ærter, bønnespirer \& cherrytomater 
-Grillet peberfrugt med salattern \& kikærter  
-Rullepølse m. sky \& løg 
-Karrysild med æble, kørvel og rødløg  
-Gammeldags hønsesalat 
-Sur/sød kalkun m. nudler, grønt \& ingefær 
-Sur/sød kalkun m. nudler, grønt \& ingefær 
-Sur/sød Nomeat m. nudler, grønt \& ingefær 
-Fintsnittet iceberg, rødløg, tomat og agurk  
-Rødbedesalat med quinoa \& persille
-Kalkun med karrydressing \& chorizo  
-Italiensk pølse m. hvidløg \& olivenmix  
-Skaldyrssalat 
-Okseburger  m. balsamico stegte rødløg, trøffelcreme \& kartoffelbåde  
-Okseburger  m. balsamico stegte rødløg, trøffelcreme \& kartoffelbåde  
-Veggieburger m. balsamico stegte rødløg, trøffelcreme \& kartoffelbåde 
 
-Cabbage salad with wild garlic
-Haricot verts with pickled beetroot and couscous
-Ham with smoked ham and green asparagus
-Pastrami with pickles and roasted onions
-Beef curry salad
-Tikka Masala with rice
-Tikka Masala with rice
-Chana Masala
-Squash salad with spring onions, lovage and garlic
-Spelt seed salad with leek, rocket and tomato
-Liver pate with pickled beetroot
-Roast beef with tarragon cream and fried carrot dumplings
-Spring salad with smoked cheese and turkey (3,6,7,10,15
-Pasta carbonara
-Pasta carbonara with turkey bacon
-Pasta carbonara with grated root vegetables and chicken no chicken
-Sesame roasted celeriac with cress, tomato and pointed cabbage
-Garlic roasted broccoli salad with black beans
-Spicy turkey with relish
-Engraved beef tenderloin with Jerusalem artichoke puree and lingonberries
-Empress's peas salad (3,6,7,10,15
-Meatballs with stewed cabbage & potatoes
-Chicken meatballs with stewed cabbage & potatoes
-Celery sticks with stewed cabbage & potatoes
-Coconut cream puffs
-Mixed salad with herbs, bean sprouts & cherry tomatoes
-Grilled peppers with salad peas & chickpeas
-Rolled sausage with gravy & onions
-Curry herring with apple, dill and carrots
-Old-fashioned chicken salad
-Sweet and sour turkey with noodles, vegetables & ginger
-Sweet and sour turkey with noodles, vegetables & ginger
-Sweet and sour Nomeat with noodles, greens & ginger
-Finely chopped iceberg, red onion, tomato and cucumber
-Beetroot salad with quinoa & parsley
-Turkey with curry dressing & chorizo
-Italian sausage with garlic & olive mix
-Seafood salad
-Beef burger with balsamic roasted onions, truffle cream & potato wedges
-Beef burger with balsamic roasted onions, truffle cream & potato wedges
-Veggie burger with balsamic fried onions, truffle cream & potato wedges
 
-Kålsalat med ramsløg 
-Haricot verts med syltet rødløg og couscous  
-Skinke med røræg og grønne asparges  
-Pastrami med pickles og ristede løg 
-Okse i karry salat 
-Tikka Masala m. ris 
-Tikka Masala m. ris 
-Chana  Masala 
-Squash salat med springløg, løvstikke og hvidløg  
-Speltkernesalat med porre, rucola og tomat 
-Leverpostej med syltet rødbede 
-Roastbeef med estragoncreme og stegte gulerodskløfter  
-Forårssalat med rygeost og kalkun 
-Pasta carbonara 
-Pasta carbonara med kalkunbacon 
-Pasta carbonara med revet rodfrugter og chicken no chicken
-Sesamstegt knoldselleri med karse, tomat og spidskål  
-Hvidløgsristet broccolisalat med sorte bønner  
-Stærk kalkun med relish 
-Gravad okseinderlår med jordskokpuré og tyttebær  
-Kejserindens pølsesalat 
-Frikadeller  m. stuvede hvidkål \& kartofler 
-Kyllingefrikadeller m. stuvede hvidkål \& kartofler 
-Selleristicks m. stuvede hvidkål \& kartofler 
-Kokostoppe 
-Mixed salat m. ærter, bønnespirer \& cherrytomater 
-Grillet peberfrugt med salattern \& kikærter  
-Rullepølse m. sky \& løg 
-Karrysild med æble, kørvel og rødløg  
-Gammeldags hønsesalat 
-Sur/sød kalkun m. nudler, grønt \& ingefær 
-Sur/sød kalkun m. nudler, grønt \& ingefær 
-Sur/sød Nomeat m. nudler, grønt \& ingefær 
-Fintsnittet iceberg, rødløg, tomat og agurk  
-Rødbedesalat med quinoa \& persille
-Kalkun med karrydressing \& chorizo  
-Italiensk pølse m. hvidløg \& olivenmix  
-Skaldyrssalat 
-Okseburger  m. balsamico stegte rødløg, trøffelcreme \& kartoffelbåde  
-Okseburger  m. balsamico stegte rødløg, trøffelcreme \& kartoffelbåde  
-Veggieburger m. balsamico stegte rødløg, trøffelcreme \& kartoffelbåde 
+Bagte squash med ærter og havesyre
+Grøn bønnesalat med oliven og soltørret tomat 
+Spegepølse med tomat tapanade  
+Flanke med grillet peber
+Æggesalat med agurk og estragon 
+Toscanergryde med kylling og pasta 
+Toscanergryde med kylling og pasta 
+Toscanergryde med Nochicken og pasta 
+Spidskålssalat med asparges, edamame og græskarkerner  
+Panzanella - Italiensk brødsalat 
+Vitello tonnato 
+Paté med cornichons og syltede hvidløg 
+Rød hønsesalat med smagen af Italien 
+Gris  m. stegte kartofler, oliven, rødløg \& peberfrugt samt rosmarin jús 
+Kalkun m. stegte kartofler, oliven, r�dl�g & peberfrugt samt rosmarin j�s 
+Selleri m. stegte kartofler, oliven, r�dl�g & peberfrugt samt rosmarin j�s 
+Melonsalat med salatost, balsamico og bredbladet persille 
+Auberginesalat m. citrusvendt perlebyg, friseé, langtidsbagte tomater \& valnødder  
+Bresaola - carpaccio style 
+Hamburgerryg med italiensksalat 
+Torskerognssalat 
+Pestostegt kalkun  med citron/pebersauce og hvedekernesauté 
+Pestostegt kalkun  med citron/pebersauce og hvedekernesauté 
+Pestostegt veggiebøf med citron/pebersauce og hvedekernesauté 
+Dolce Di Amalfi - Italiensk citronkage 
 
-Cabbage salad with wild garlic
-Haricot verts with pickled beetroot and couscous
-Ham with smoked ham and green asparagus
-Pastrami with pickles and roasted onions
-Beef curry salad
-Tikka Masala with rice
-Tikka Masala with rice
-Chana Masala
-Squash salad with spring onions, lovage and garlic
-Spelt seed salad with leek, rocket and tomato
-Liver pate with pickled beetroot
-Roast beef with tarragon cream and fried carrot dumplings
-Spring salad with smoked cheese and turkey
-Pasta carbonara
-Pasta carbonara with turkey bacon
-Pasta carbonara with grated root vegetables and chicken no chicken
-Sesame roasted celeriac with cress, tomato and pointed cabbage
-Garlic roasted broccoli salad with black beans
-Spicy turkey with relish
-Engraved beef tenderloin with Jerusalem artichoke puree and lingonberries
-Empress's peas salad
-Meatballs with stewed cabbage & potatoes
-Chicken meatballs with stewed cabbage & potatoes
-Celery sticks with stewed cabbage & potatoes
-Coconut cream puffs
-Mixed salad with herbs, bean sprouts & cherry tomatoes
-Grilled peppers with salad peas & chickpeas
-Rolled sausage with gravy & onions
-Curry herring with apple, dill and carrots
-Old-fashioned chicken salad
-Sweet and sour turkey with noodles, vegetables & ginger
-Sweet and sour turkey with noodles, vegetables & ginger
-Sweet and sour Nomeat with noodles, greens & ginger
-Finely chopped iceberg, red onion, tomato and cucumber
-Beetroot salad with quinoa & parsley
-Turkey with curry dressing & chorizo
-Italian sausage with garlic & olive mix
-Seafood salad
-Beef burger with balsamic roasted onions, truffle cream & potato wedges
-Beef burger with balsamic roasted onions, truffle cream & potato wedges
-Veggie burger with balsamic fried onions, truffle cream & potato wedges
+Baked courgettes with herbs and sorrel
+Green bean salad with olives and sun-dried tomato
+Skewered sausage with tomato tapanade
+Flank with grilled pepper
+Egg salad with cucumber and tarragon
+Tuscan chicken and pasta casserole
+Tuscan chicken and pasta casserole
+Tuscan stew with Nochicken and pasta
+Kale salad with asparagus, edamame and pumpkin seeds
+Panzanella - Italian bread salad
+Vitello tonnato
+Pate with gherkins and pickled garlic
+Red chicken salad with the taste of Italy
+Pork with roast potatoes, olives, red onions & peppers and rosemary sauce
+Turkey with roast potatoes, olives, red onions & peppers and rosemary j�s
+Celery with roasted potatoes, olives, red onions & peppers and rosemary j�s
+Melon salad with salad cheese, balsamic vinegar and parsley leaves
+Aubergine salad with citrusy pearl barley, frisee, slow roasted tomatoes & walnuts
+Bresaola - carpaccio style
+Hamburger with Italian salad
+Cod roe salad
+Pesto roast turkey with lemon/pepper sauce and wheat kernel sauce
+Pesto roast turkey with lemon/pepper sauce and wheat kernel sauce
+Pesto roasted veggie steak with lemon/pepper sauce and wheat kernel sauce
+Dolce Di Amalfi - Italian lemon cake
