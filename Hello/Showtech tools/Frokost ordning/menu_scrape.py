@@ -8,19 +8,19 @@ listPattern = "<p.*Salater.*</p>"
 subSnip = re.findall(listPattern,html)                  #find and save the strings for each day
 #cleaning the list
 testMenu = []
-for x in subSnip[5:]:
+for x in subSnip[3:]:
     x = re.sub("&amp;",r"\&",x)
     x = re.sub("<br />","\n",x)
     x = re.sub("<.*?>","",x)
     testMenu.extend(re.findall(r"\n(.+)",x))
-testMenu.insert(24,"Kalkun m. stegte kartofler, oliven, rødløg & peberfrugt samt rosmarin jús (7,15,16)")
-testMenu.insert(25,"Selleri m. stegte kartofler, oliven, rødløg & peberfrugt samt rosmarin jús (7,9,15,16)")
+testMenu.insert(24,"Fiskedunser (2 stk.) m. kartofler, persillesauce & sesamstegt broccoli (1,3,4,7,10,11,15)")
+testMenu.insert(25,"Linsefrikadeller m. kartofler, persillesauce & sesamstegt broccoli (1,3,7,10,11,15,16)")
 
 #if len(testMenu) < 72:
 #    print("Menu is fucked once again")
 #    exit
 
-"""
+
 ## Time to clean
 #Friday
 del testMenu[-2]
@@ -39,8 +39,8 @@ del testMenu[-20]
 del testMenu[-22:-20]
 del testMenu[-25:-23]
 #Tuesday
-del testMenu[-27]
-del testMenu[-28]
+#del testMenu[-27]
+#del testMenu[-28]
 del testMenu[-30:-28]
 del testMenu[-33:-31]
 #Monday
@@ -49,7 +49,7 @@ del testMenu[-36]
 del testMenu[-38:-36]
 del testMenu[-41:-39]
 ## Menu is cleaned to only relevant lines
-"""
+"""monday
 del testMenu[2:4]
 del testMenu[5:7]
 del testMenu[6]
@@ -59,13 +59,13 @@ del testMenu[7]
 #del testMenu[-12]
 del testMenu[10:12]
 del testMenu[13:15]
-#Monday
+#onsdag
 del testMenu[18:20]
 del testMenu[21:23]
 del testMenu[22]
 del testMenu[23]
 del testMenu[24]
-
+"""
 
 
 
@@ -269,7 +269,7 @@ template[431] = algDansk[24] + "\n"
 template[435] =  etestMenu[24] + "\n" 
 template[438] = algEnglish[24] + "\n"
 #Wednesday done
-"""#Thursday
+#Thursday
 #Thursday salads
 template[443] = testMenu[25] + "\n"
 template[446] = algDansk[25] + "\n"
@@ -353,8 +353,8 @@ template[658] = algEnglish[39] + "\n"
 template[662] =  etestMenu[40] + "\n"
 template[665] = algEnglish[40] + "\n"
 #Friday done
-"""
-with open("template 19.txt", "a") as file:
+
+with open("template 20.txt", "a") as file:
     file.writelines(template)
 
 with open("menu snip.txt", "a") as file:
