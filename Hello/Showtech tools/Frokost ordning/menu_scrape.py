@@ -8,13 +8,13 @@ listPattern = "<p.*Salater.*</p>"
 subSnip = re.findall(listPattern,html)                  #find and save the strings for each day
 #cleaning the list
 testMenu = []
-for x in subSnip[3:]:
+for x in subSnip[5:]:
     x = re.sub("&amp;",r"\&",x)
     x = re.sub("<br />","\n",x)
     x = re.sub("<.*?>","",x)
     testMenu.extend(re.findall(r"\n(.+)",x))
-testMenu.insert(24,"Fiskedunser (2 stk.) m. kartofler, persillesauce & sesamstegt broccoli (1,3,4,7,10,11,15)")
-testMenu.insert(25,"Linsefrikadeller m. kartofler, persillesauce & sesamstegt broccoli (1,3,7,10,11,15,16)")
+#testMenu.insert(24,"Chili con carne med creme fraiche (7,9,15,16)")
+#testMenu.insert(25,"Chili sin carne med creme fraiche(6,7,9,15,16)")
 
 #if len(testMenu) < 72:
 #    print("Menu is fucked once again")
@@ -39,15 +39,15 @@ del testMenu[-20]
 del testMenu[-22:-20]
 del testMenu[-25:-23]
 #Tuesday
-#del testMenu[-27]
-#del testMenu[-28]
+del testMenu[-27]
+del testMenu[-28]
 del testMenu[-30:-28]
 del testMenu[-33:-31]
 #Monday
-del testMenu[-35]
-del testMenu[-36]
-del testMenu[-38:-36]
-del testMenu[-41:-39]
+#del testMenu[-35]
+#del testMenu[-36]
+#del testMenu[-38:-36]
+#del testMenu[-41:-39]
 ## Menu is cleaned to only relevant lines
 """monday
 del testMenu[2:4]
@@ -138,7 +138,7 @@ with open("template menu.txt","r") as file:
     template = file.readlines()
 #Overwiting the lines
 #Monday salads
-template[85] = testMenu[0] + "\n"
+'''template[85] = testMenu[0] + "\n"
 template[88] = algDansk[0] + "\n"
 template[92] = testMenu[1] + "\n"
 template[95] = algDansk[1] + "\n"
@@ -353,8 +353,181 @@ template[658] = algEnglish[39] + "\n"
 template[662] =  etestMenu[40] + "\n"
 template[665] = algEnglish[40] + "\n"
 #Friday done
+'''
+template[202] = testMenu[0] + "\n"
+template[205] = algDansk[0] + "\n"
+template[209] = testMenu[1] + "\n"
+template[212] = algDansk[1] + "\n"
 
-with open("template 20.txt", "a") as file:
+template[216] =  etestMenu[0] + "\n"
+template[219] = algEnglish[0] + "\n"
+template[223] =  etestMenu[1] + "\n"
+template[226] = algEnglish[1] + "\n"
+
+#Tuesday cold cuts
+template[230] = testMenu[2] + "\n"
+template[233] = algDansk[2] + "\n"
+template[237] = testMenu[3] + "\n"
+template[240] = algDansk[3] + "\n"
+template[244] = testMenu[4] + "\n"
+template[247] = algDansk[4] + "\n"
+
+template[251] =  etestMenu[2] + "\n"
+template[254] = algEnglish[2] + "\n"
+template[258] =  etestMenu[3] + "\n"
+template[261] = algEnglish[3] + "\n"
+template[265] =  etestMenu[4] + "\n"
+template[268] = algEnglish[4] + "\n"
+
+#Tuesday hot dishes
+template[272] = testMenu[5] + "\n"
+template[275] = algDansk[5] + "\n"
+template[279] = testMenu[6] + "\n"
+template[282] = algDansk[6] + "\n"
+template[286] = testMenu[7] + "\n"
+template[289] = algDansk[7] + "\n"
+
+template[293] =  etestMenu[5] + "\n"
+template[296] = algEnglish[5] + "\n"
+template[300] =  etestMenu[6] + "\n"
+template[303] = algEnglish[6] + "\n"
+template[307] =  etestMenu[7] + "\n"
+template[310] = algEnglish[7] + "\n"
+#Tuesday done
+#Wednesday
+#Wednesday salads
+template[316] = testMenu[8] + "\n"
+template[319] = algDansk[8] + "\n"
+template[323] = testMenu[9] + "\n"
+template[326] = algDansk[9] + "\n"
+
+template[330] =  etestMenu[8] + "\n"
+template[333] = algEnglish[8] + "\n"
+template[337] =  etestMenu[9] + "\n"
+template[340] = algEnglish[9] + "\n"
+
+#Wednesday cold cuts
+template[344] = testMenu[10] + "\n"
+template[347] = algDansk[10] + "\n"
+template[351] = testMenu[11] + "\n"
+template[354] = algDansk[11] + "\n"
+template[358] = testMenu[12] + "\n"
+template[361] = algDansk[12] + "\n"
+
+template[365] =  etestMenu[10] + "\n"
+template[368] = algEnglish[10] + "\n"
+template[372] =  etestMenu[11] + "\n"
+template[375] = algEnglish[11] + "\n"
+template[379] =  etestMenu[12] + "\n"
+template[382] = algEnglish[12] + "\n"
+
+#Wednesday hot dishes
+template[386] = testMenu[13] + "\n"
+template[389] = algDansk[13] + "\n"
+template[393] = testMenu[14] + "\n"
+template[396] = algDansk[14] + "\n"
+template[400] = testMenu[15] + "\n"
+template[403] = algDansk[15] + "\n"
+
+template[407] =  etestMenu[13] + "\n"
+template[410] = algEnglish[13] + "\n"
+template[414] =  etestMenu[14] + "\n"
+template[417] = algEnglish[14] + "\n"
+template[421] =  etestMenu[15] + "\n"
+template[424] = algEnglish[15] + "\n"
+
+#Wednesday cake
+template[428] = testMenu[16] + "\n"
+template[431] = algDansk[16] + "\n"
+
+template[435] =  etestMenu[16] + "\n" 
+template[438] = algEnglish[16] + "\n"
+#Wednesday done
+#Thursday
+#Thursday salads
+template[443] = testMenu[17] + "\n"
+template[446] = algDansk[17] + "\n"
+template[450] = testMenu[18] + "\n"
+template[453] = algDansk[18] + "\n"
+
+template[457] =  etestMenu[17] + "\n"
+template[460] = algEnglish[17] + "\n"
+template[464] =  etestMenu[18] + "\n"
+template[467] = algEnglish[18] + "\n"
+
+#Thursday cold cuts
+template[471] = testMenu[19] + "\n"
+template[474] = algDansk[19] + "\n"
+template[478] = testMenu[20] + "\n"
+template[481] = algDansk[20] + "\n"
+template[485] = testMenu[21] + "\n"
+template[488] = algDansk[21] + "\n"
+
+template[492] =  etestMenu[19] + "\n"
+template[495] = algEnglish[19] + "\n"
+template[499] =  etestMenu[20] + "\n"
+template[502] = algEnglish[20] + "\n"
+template[506] =  etestMenu[21] + "\n"
+template[509] = algEnglish[21] + "\n"
+
+#Thursday hot dishes
+template[513] = testMenu[22] + "\n"
+template[516] = algDansk[22] + "\n"
+template[520] = testMenu[23] + "\n"
+template[523] = algDansk[23] + "\n"
+template[527] = testMenu[24] + "\n"
+template[530] = algDansk[24] + "\n"
+
+template[534] =  etestMenu[22] + "\n"
+template[537] = algEnglish[22] + "\n"
+template[541] =  etestMenu[23] + "\n"
+template[544] = algEnglish[23] + "\n"
+template[548] =  etestMenu[24] + "\n"
+template[551] = algEnglish[24] + "\n"
+#Thursday done
+#Friday
+#Friday salads
+template[557] = testMenu[25] + "\n"
+template[560] = algDansk[25] + "\n"
+template[564] = testMenu[26] + "\n"
+template[567] = algDansk[26] + "\n"
+
+template[571] =  etestMenu[25] + "\n"
+template[574] = algEnglish[25] + "\n"
+template[578] =  etestMenu[26] + "\n"
+template[581] = algEnglish[26] + "\n"
+
+#Friday cold cuts
+template[585] = testMenu[27] + "\n"
+template[588] = algDansk[27] + "\n"
+template[592] = testMenu[28] + "\n"
+template[595] = algDansk[28] + "\n"
+template[599] = testMenu[29] + "\n"
+template[602] = algDansk[29] + "\n"
+
+template[606] =  etestMenu[27] + "\n"
+template[609] = algEnglish[27] + "\n"
+template[613] =  etestMenu[28] + "\n"
+template[616] = algEnglish[28] + "\n"
+template[620] =  etestMenu[29] + "\n"
+template[623] = algEnglish[29] + "\n"
+
+#Friday hot dishes
+template[627] = testMenu[30] + "\n"
+template[630] = algDansk[30] + "\n"
+template[634] = testMenu[31] + "\n"
+template[637] = algDansk[31] + "\n"
+template[641] = testMenu[32] + "\n"
+template[644] = algDansk[32] + "\n"
+
+template[648] =  etestMenu[30] + "\n"
+template[651] = algEnglish[30] + "\n"
+template[655] =  etestMenu[31] + "\n"
+template[658] = algEnglish[31] + "\n"
+template[662] =  etestMenu[32] + "\n"
+template[665] = algEnglish[32] + "\n"
+
+with open("template 21.txt", "a") as file:
     file.writelines(template)
 
 with open("menu snip.txt", "a") as file:
