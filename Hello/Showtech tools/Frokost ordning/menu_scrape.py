@@ -8,17 +8,17 @@ listPattern = "<p.*Salater.*</p>"
 subSnip = re.findall(listPattern,html)                  #find and save the strings for each day
 #cleaning the list
 testMenu = []
-for x in subSnip[5:]:
+for x in subSnip[4:]:
     x = re.sub("&amp;",r"\&",x)
     x = re.sub("<br />","\n",x)
     x = re.sub("<.*?>","",x)
     testMenu.extend(re.findall(r"\n(.+)",x))
-#testMenu.insert(24,"Chili con carne med creme fraiche (7,9,15,16)")
-#testMenu.insert(25,"Chili sin carne med creme fraiche(6,7,9,15,16)")
+testMenu.insert(24,"Kyllingestrimler i grøn karry-kokos m. nudler & grønt (1,4,6,15)")
+testMenu.insert(25,"Nomeat i grøn karry-kokos m. nudler & grønt (1,6,15)")
 
 #if len(testMenu) < 72:
-#    print("Menu is fucked once again")
-#    exit
+ #   print("Menu is fucked once again")
+  #  exit
 
 
 ## Time to clean
@@ -39,15 +39,15 @@ del testMenu[-20]
 del testMenu[-22:-20]
 del testMenu[-25:-23]
 #Tuesday
-del testMenu[-27]
-del testMenu[-28]
+#del testMenu[-27]
+#del testMenu[-28]
 del testMenu[-30:-28]
 del testMenu[-33:-31]
 #Monday
-#del testMenu[-35]
-#del testMenu[-36]
-#del testMenu[-38:-36]
-#del testMenu[-41:-39]
+del testMenu[-35]
+del testMenu[-36]
+del testMenu[-38:-36]
+del testMenu[-41:-39]
 ## Menu is cleaned to only relevant lines
 """monday
 del testMenu[2:4]
@@ -66,7 +66,6 @@ del testMenu[22]
 del testMenu[23]
 del testMenu[24]
 """
-
 
 
 
@@ -117,7 +116,7 @@ auth_key = "d817f7ec-5e15-4662-9380-0efcae84f25f:fx"
 translator = deepl.Translator(auth_key)
 
 for idi, i in enumerate(testMenu):
-    temp = re.findall(r"\d+",i)
+    temp = re.findall(r'\d+(?!.*[(])',i)
     if temp == []:
         algDansk.extend(["N/A"])
         algEnglish.extend(["N/A"]) 
@@ -138,7 +137,7 @@ with open("template menu.txt","r") as file:
     template = file.readlines()
 #Overwiting the lines
 #Monday salads
-'''template[85] = testMenu[0] + "\n"
+template[85] = testMenu[0] + "\n"
 template[88] = algDansk[0] + "\n"
 template[92] = testMenu[1] + "\n"
 template[95] = algDansk[1] + "\n"
@@ -526,8 +525,8 @@ template[655] =  etestMenu[31] + "\n"
 template[658] = algEnglish[31] + "\n"
 template[662] =  etestMenu[32] + "\n"
 template[665] = algEnglish[32] + "\n"
-
-with open("template 21.txt", "a") as file:
+'''
+with open("template 22.txt", "a") as file:
     file.writelines(template)
 
 with open("menu snip.txt", "a") as file:
