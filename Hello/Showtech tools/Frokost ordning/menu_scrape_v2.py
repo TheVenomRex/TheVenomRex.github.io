@@ -330,11 +330,11 @@ def overwrite_friday():
 #testMenu.insert(25,"Mos m. stegte svampe/veggie kebab & løg (1,7,15)")
 
 #getting the menu for each day into the lists
-day_menu(monday,   subSnip[0]) #IMPORTENT!!! SubSnip must be calliprated each time
-day_menu(tuesday,  subSnip[0])
-day_menu(wednesday,subSnip[0]) 
-day_menu(thursday, subSnip[0])
-day_menu(friday,   subSnip[0])
+day_menu(monday,   subSnip[5]) #IMPORTENT!!! SubSnip must be calliprated each time
+day_menu(tuesday,  subSnip[6])
+day_menu(wednesday,subSnip[7]) 
+day_menu(thursday, subSnip[8])
+day_menu(friday,   subSnip[9]) # 9 expectected 
 
 #clean the menus
 menu_cleaner(monday)
@@ -365,7 +365,7 @@ overwrite_wednesday()
 overwrite_thursday()
 overwrite_friday()
 
-with open("template 24.txt", "a") as file:
+with open("template 25.txt", "a") as file: # CHange week number to the right week
     file.writelines(template)
 
 with open("menu snip.txt", "a") as file:
