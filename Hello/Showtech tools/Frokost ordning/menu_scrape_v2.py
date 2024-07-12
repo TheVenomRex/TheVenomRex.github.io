@@ -330,11 +330,11 @@ def overwrite_friday():
 #testMenu.insert(25,"Mos m. stegte svampe/veggie kebab & løg (1,7,15)")
 
 #getting the menu for each day into the lists
-day_menu(monday,   subSnip[5]) #IMPORTENT!!! SubSnip must be calliprated each time
-day_menu(tuesday,  subSnip[6])
-day_menu(wednesday,subSnip[7]) 
-day_menu(thursday, subSnip[8])
-day_menu(friday,   subSnip[9]) # 9 expectected 
+day_menu(monday,   subSnip[0]) #IMPORTENT!!! SubSnip must be calliprated each time
+day_menu(tuesday,  subSnip[1])
+day_menu(wednesday,subSnip[2]) 
+day_menu(thursday, subSnip[3])
+day_menu(friday,   subSnip[4]) # 9 expectected 
 
 #clean the menus
 menu_cleaner(monday)
@@ -347,13 +347,13 @@ menu_cleaner(tuesday)
 menu_cleaner(wednesday)
 menu_cleaner(thursday)
 
-#friday.insert(7,"samt hjemmebagt franskbrød og rugbrød")
-#friday.insert(8,"Varm ret")
-#friday.insert(9,"")
-#friday.insert(10,"Varm ret / minus gris")
-#friday.insert(11,"")
-#friday.insert(12,"Varm ret / vegetar")
-#friday.insert(13,"")
+friday.insert(7,"samt hjemmebagt franskbrød og rugbrød")
+friday.insert(8,"Varm ret")
+friday.insert(9,"Frikadeller med rosmarinstegte kartofler, brun sauce og surt (1,3,7,11,15)") #Clear
+friday.insert(10,"Varm ret / minus gris")
+friday.insert(11,"Kyllingefrikadeller med rosmarinstegte kartofler, brun sauce og surt (1,3,7,11,15)") #Clear
+friday.insert(12,"Varm ret / vegetar")
+friday.insert(13,"Linsedunser med rosmarinstegte kartofler, brun sauce og surt (1,3,7,11,15)") #Clear
 menu_cleaner(friday)
 
 #calling the function to write the algs
