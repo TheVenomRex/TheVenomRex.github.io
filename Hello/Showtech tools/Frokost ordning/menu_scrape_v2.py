@@ -378,7 +378,7 @@ overwrite_wednesday()
 overwrite_thursday()
 overwrite_friday()
 
-with open("template 33.txt", "a") as file: # Change week number to the correct week
+with open("template 34.txt", "a") as file: # Change week number to the correct week
     file.writelines(template)
 
 with open("menu snip.txt", "a") as file:
