@@ -51,7 +51,9 @@ monAlgEng,tueAlgEng,wedAlgEng,thuAlgEng,friAlgEng = ([] for i in range(5))
 def day_menu(day, daylist): #cleaning the web scrape
     daylist = re.sub("&amp;",r"\&",daylist)
     daylist = re.sub("<br />","\n",daylist)
-    daylist = re.sub("<.*?>","",daylist)
+    ## replace portion ( ) with []
+    
+    daylist = re.sub("<.*?>","",daylist) 
     day.extend(re.findall(r"\n(.+)",daylist))
 
 #Flex clean
@@ -378,7 +380,7 @@ overwrite_wednesday()
 overwrite_thursday()
 overwrite_friday()
 
-with open("template 35.txt", "a") as file: # Change week number to the correct week
+with open("template 37.txt", "a") as file: # Change week number to the correct week
     file.writelines(template)
 
 with open("menu snip.txt", "a") as file:
