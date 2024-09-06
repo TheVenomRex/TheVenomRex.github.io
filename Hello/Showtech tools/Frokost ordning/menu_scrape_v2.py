@@ -51,8 +51,6 @@ monAlgEng,tueAlgEng,wedAlgEng,thuAlgEng,friAlgEng = ([] for i in range(5))
 def day_menu(day, daylist): #cleaning the web scrape
     daylist = re.sub("&amp;",r"\&",daylist)
     daylist = re.sub("<br />","\n",daylist)
-    ## replace portion ( ) with []
-    
     daylist = re.sub("<.*?>","",daylist) 
     day.extend(re.findall(r"\n(.+)",daylist))
 
@@ -96,8 +94,14 @@ translator = deepl.Translator(auth_key)
 #translation function
 def trans_day(menuDay,menuDayEng):
     for idi, i in enumerate(menuDay):
-        menuDay[idi] = re.sub(r"\(.*?\)","",i)  
-        menuDayEng.append((translator.translate_text(menuDay[idi],source_lang="DA",target_lang="EN-GB")).text)  
+        test_text = i #can maybe simplyfi, but this lets multipe operations happening
+        pattern = r'\((?=.*\()|\)(?=.*\()' #Match ( and ) only when folowed by another (
+        test_text = re.sub(pattern , lambda match: '[' if match.group() == '(' else ']', test_text) # replace with [ and ]
+        test_text = re.sub(r"\(.*?\)","",test_text) #Remove ref numbers for allergeis
+        trans_text = (translator.translate_text(test_text,source_lang="DA",target_lang="EN-GB")).text #save translation
+        trans_text = re.sub("&",r"\&",trans_text) # fix &
+        menuDayEng.append(trans_text) #Join to list  
+        menuDay[idi] = test_text
 
 #Function for Overwiting the lines
 #Monday
@@ -332,11 +336,11 @@ def overwrite_friday():
 #testMenu.insert(25,"Mos m. stegte svampe/veggie kebab & løg (1,7,15)")
 
 #getting the menu for each day into the lists
-day_menu(monday,   subSnip[5]) #IMPORTENT!!! SubSnip must be calliprated each time
-day_menu(tuesday,  subSnip[6])
-day_menu(wednesday,subSnip[7]) 
-day_menu(thursday, subSnip[8])
-day_menu(friday,   subSnip[9]) # 9 expectected 
+day_menu(monday,   subSnip[0]) #IMPORTENT!!! SubSnip must be calliprated each time
+day_menu(tuesday,  subSnip[1])
+day_menu(wednesday,subSnip[2]) 
+day_menu(thursday, subSnip[3])
+day_menu(friday,   subSnip[4]) # 9 expectected 
 
 #clean the menus
 menu_cleaner(monday)
@@ -380,7 +384,7 @@ overwrite_wednesday()
 overwrite_thursday()
 overwrite_friday()
 
-with open("template 37.txt", "a") as file: # Change week number to the correct week
+with open("template 38.txt", "a") as file: # Change week number to the correct week
     file.writelines(template)
 
 with open("menu snip.txt", "a") as file:
