@@ -1,0 +1,1007 @@
+\documentclass[12pt]{article}
+\newcommand{\justering}{-4mm}
+\newcommand{\justeringB}{30pt}
+% Language setting
+\usepackage[danish]{babel}
+
+% Set page size and margins
+\usepackage[a4paper, top=2cm, bottom=2cm, left=1.75cm, right=1cm, marginparwidth=1.75cm]{geometry}
+
+% Useful packages
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\usepackage{tabularx}
+
+\usepackage{float}
+
+\usepackage{titlesec}
+
+\titleformat*{\section}{\centering\bfseries\huge}
+\titlespacing{\section}{0em}{0em}{0.5ex}
+% not in article % \titleformat*{\chapter}{\centering\bfseries\huge}
+\titleformat*{\subsection}{\centering\bfseries\Large}
+\titleformat*{\subsubsection}{\centering\large} % juster op med v-
+\titlespacing{\subsubsection}{0em}{1ex}{0ex}
+%-+-+- 
+% Set custom set up for menu formating
+
+%nuværende uge
+\newcommand{\uge}{Uge \#\#}
+%nuværende Firma
+\newcommand{\firma}{Kejserindens Gryder}
+
+% Ref allergener
+% Allegener - dansk
+\newcommand{\algA}{Gluten}      % 1
+\newcommand{\algB}{Skaldyr}     % 2
+\newcommand{\algC}{Æg}          % 3
+\newcommand{\algD}{Fisk}        % 4
+\newcommand{\algE}{Jordnødder}  % 5
+\newcommand{\algF}{Soja}        % 6
+\newcommand{\algG}{Laktose}     % 7
+\newcommand{\algH}{Nødder}      % 8
+\newcommand{\algI}{Selleri}     % 9
+\newcommand{\algJ}{Sennep}      % 10
+\newcommand{\algK}{Sesamfrø}    % 11
+\newcommand{\algL}{Svovldioxid} % 12
+\newcommand{\algM}{Lupin}       % 13
+\newcommand{\algN}{Bløddyr}     % 14
+\newcommand{\algO}{Løg}         % 15
+\newcommand{\algP}{Hvidløg}     % 16
+% Allegener - engelsk
+\newcommand{\algAe}{Gluten}         % 1
+\newcommand{\algBe}{Shellfish}      % 2
+\newcommand{\algCe}{Egg}            % 3
+\newcommand{\algDe}{Fish}           % 4
+\newcommand{\algEe}{Peanuts}        % 5
+\newcommand{\algFe}{Soy}            % 6
+\newcommand{\algGe}{Lactose}        % 7
+\newcommand{\algHe}{Nuts}           % 8
+\newcommand{\algIe}{Celery}         % 9
+\newcommand{\algJe}{Mustard}        % 10
+\newcommand{\algKe}{Sasame seeds}   % 11
+\newcommand{\algLe}{Sulfur dioxide} % 12
+\newcommand{\algMe}{Lupin}          % 13
+\newcommand{\algNe}{Mollusks}       % 14
+\newcommand{\algOe}{Onion}          % 15
+\newcommand{\algPe}{Garlic}         % 16
+
+% Menu dele - mandag - fredag
+\newcommand{\salatekstra}{
+Samt Dressing
+}
+\newcommand{\salatekstraE}{
+And Dressing
+}
+% --//--
+\newcommand{\paalaegekstra}{
+Samt hjemmebagt franskbrød og rugbrød
+}
+\newcommand{\paalaegekstraE}{
+And homemade French bread and rye bread
+}
+% Mandag
+% Salater dansk
+\newcommand{\salatAdMan}{
+Bagte squash med salatostetern og rucola  
+}
+\newcommand{\allergenSAdMan}{
+\algG
+}
+% --//--
+\newcommand{\salatBdMan}{
+Broccolisalat med pasta og soltørret tomat  
+}
+\newcommand{\allergenSBdMan}{
+\algA, \algO
+}
+% Salater engelsk
+\newcommand{\salatAeMan}{
+Baked courgettes with salad cheese cubes and rocket
+}
+\newcommand{\allergenSAeMan}{
+\algGe
+}
+% --//--
+\newcommand{\salatBeMan}{
+Broccoli salad with pasta and sun-dried tomato
+} 
+\newcommand{\allergenSBeMan}{
+\algAe, \algOe
+}
+
+% Pålæg Dansk
+\newcommand{\paalaegAdMan}{
+Peber makrel m. mayonnaise, purløg og radiser  
+}
+\newcommand{\allergenPAdMan}{
+\algC, \algD, \algJ, \algO
+}
+% --//--
+\newcommand{\paalaegBdMan}{
+Kamsteg med rødkål og surt 
+}
+\newcommand{\allergenPBdMan}{
+N/A
+}
+% --//--
+\newcommand{\paalaegCdMan}{
+Æggesalat med bacon og tomat 
+}
+\newcommand{\allergenPCdMan}{
+\algC, \algG, \algJ, \algO
+}
+% Pålæg Engelsk
+\newcommand{\paalaegAeMan}{
+Pepper mackerel with mayonnaise, leeks and radishes
+}
+\newcommand{\allergenPAeMan}{
+\algCe, \algDe, \algJe, \algOe
+}
+% --//--
+\newcommand{\paalaegBeMan}{
+Roast beef with red cabbage and sour cream
+}
+\newcommand{\allergenPBeMan}{
+N/A
+}
+% --//--
+\newcommand{\paalaegCeMan}{
+Egg salad with bacon and tomato
+}
+\newcommand{\allergenPCeMan}{
+\algCe, \algGe, \algJe, \algOe
+}
+% --//--
+% Varmret Dansk
+\newcommand{\VarmAdMan}{
+Kalvesauté marengo med grov mos 
+}
+\newcommand{\allergenVAdMan}{
+\algG, \algI, \algL, \algO, \algP
+}
+% - gris
+\newcommand{\VarmumAdMan}{
+Kalvesauté marengo med grov mos 
+}
+\newcommand{\allergenVumAdMan}{
+\algG, \algI, \algL, \algO, \algP
+}
+% Vegetar 
+\newcommand{\VarmvegAdMan}{
+Chickpeassauté marengo med grov mos 
+}
+\newcommand{\allergenVegAdMan}{
+\algG, \algI, \algL, \algO, \algP
+}
+% Varmret engelsk
+\newcommand{\VarmAeMan}{
+Veal marengo with coarse mash
+}
+\newcommand{\allergenVAeMan}{
+\algGe, \algIe, \algLe, \algOe, \algPe
+}
+% - gris
+\newcommand{\VarmumAeMan}{
+Veal marengo with coarse mash
+}
+\newcommand{\allergenVumAeMan}{
+\algGe, \algIe, \algLe, \algOe, \algPe
+}
+% Vegetar 
+\newcommand{\VarmvegAeMan}{
+Chickpeasauce marengo with coarse mash
+}
+\newcommand{\allergenVegAeMan}{
+\algGe, \algIe, \algLe, \algOe, \algPe
+}
+
+%
+% Tirsdag
+% Salater dansk
+\newcommand{\salatAdTir}{
+Chili bagt græskar med sesam og grønkål 
+}
+\newcommand{\allergenSAdTir}{
+\algK
+}
+% --//--
+\newcommand{\salatBdTir}{
+Græsk linsesalat med agurk, oliven, tomat, og rødløg 
+}
+\newcommand{\allergenSBdTir}{
+\algO, \algP
+}
+% Salater engelsk
+\newcommand{\salatAeTir}{
+Chilli baked pumpkin with sesame and vegetable
+}
+\newcommand{\allergenSAeTir}{
+\algKe
+}
+% --//--
+\newcommand{\salatBeTir}{
+Greek lentil salad with cucumber, olives, tomato, and beetroot
+} 
+\newcommand{\allergenSBeTir}{
+\algOe, \algPe
+}
+% Pålæg Dansk
+\newcommand{\paalaegAdTir}{
+Paprika kalkun med æble/timian kompot og rucola 
+}
+\newcommand{\allergenPAdTir}{
+N/A
+}
+% --//--
+\newcommand{\paalaegBdTir}{
+Klassisk roastbeef 
+}
+\newcommand{\allergenPBdTir}{
+\algA, \algC, \algJ, \algO
+}
+% --//--
+\newcommand{\paalaegCdTir}{
+Grov skinkesalat med hytteost og rødløg 
+}
+\newcommand{\allergenPCdTir}{
+\algC, \algG, \algJ, \algO
+}
+% Pålæg Engelsk
+\newcommand{\paalaegAeTir}{
+Paprika turkey with apple/thyme compote and rocket salad
+}
+\newcommand{\allergenPAeTir}{
+N/A
+}
+% --//--
+\newcommand{\paalaegBeTir}{
+Classic roast beef
+}
+\newcommand{\allergenPBeTir}{
+\algAe, \algCe, \algJe, \algOe
+}
+% --//--
+\newcommand{\paalaegCeTir}{
+Chunky ham salad with cottage cheese and carrots
+}
+\newcommand{\allergenPCeTir}{
+\algCe, \algGe, \algJe, \algOe
+}
+% Varmret Dansk
+\newcommand{\VarmAdTir}{
+Koteletter [1 stk.] i fad med porre, tomat og kål, serveret med ris 
+}
+\newcommand{\allergenVAdTir}{
+\algG, \algO, \algP
+}
+% - gris
+\newcommand{\VarmumAdTir}{
+Kalkun i fad med porre, tomat og kål, serveret med ris 
+}
+\newcommand{\allergenVumAdTir}{
+\algG, \algO, \algP
+}
+% Vegetar 
+\newcommand{\VarmvegAdTir}{
+Knusper schnitzel i fad med porre, tomat og kål, serveret med ris 
+}
+\newcommand{\allergenVegAdTir}{
+\algA, \algG, \algO, \algP
+}
+% Varmret engelsk
+\newcommand{\VarmAeTir}{
+Pork chops [1 piece] in a leek, tomato and cabbage dish, served with rice
+}
+\newcommand{\allergenVAeTir}{
+\algGe, \algOe, \algPe
+}
+% - gris
+\newcommand{\VarmumAeTir}{
+Turkey in a leek, tomato and cabbage dish, served with rice
+}
+\newcommand{\allergenVumAeTir}{
+\algGe, \algOe, \algPe
+}
+% Vegetar 
+\newcommand{\VarmvegAeTir}{
+Crispy schnitzel in a dish with leek, tomato and cabbage, served with rice
+}
+\newcommand{\allergenVegAeTir}{
+\algAe, \algGe, \algOe, \algPe
+}
+
+% Onsdag
+% Salater dansk
+\newcommand{\salatAdOns}{
+Tomat, agurk, mixsalat, syltet løg 
+}
+\newcommand{\allergenSAdOns}{
+\algO
+}
+% --//--
+\newcommand{\salatBdOns}{
+Mexikansk sort bønnesalat m. majs, avokado, urter og chili  
+}
+\newcommand{\allergenSBdOns}{
+\algP
+}
+% Salater engelsk
+\newcommand{\salatAeOns}{
+Tomato, cucumber, mixed lettuce, pickled onion
+}
+\newcommand{\allergenSAeOns}{
+\algOe
+}
+% --//--
+\newcommand{\salatBeOns}{
+Mexican black bean salad with corn, avocado, herbs and chilli
+} 
+\newcommand{\allergenSBeOns}{
+\algPe
+}
+% Pålæg Dansk
+\newcommand{\paalaegAdOns}{
+Ålerøget skinke med æggestand og tomat 
+}
+\newcommand{\allergenPAdOns}{
+\algC, \algG, \algO
+}
+% --//--
+\newcommand{\paalaegBdOns}{
+Stegte sild m. løg og dijoncreme 
+}
+\newcommand{\allergenPBdOns}{
+\algA, \algC, \algD, \algG, \algJ, \algO
+}
+% --//--
+\newcommand{\paalaegCdOns}{
+Kylling a la waldorf salat 
+}
+\newcommand{\allergenPCdOns}{
+\algC, \algG, \algH, \algI, \algJ
+}
+% Pålæg Engelsk
+\newcommand{\paalaegAeOns}{
+Smoked ham with scrambled eggs and tomato
+}
+\newcommand{\allergenPAeOns}{
+\algCe, \algGe, \algOe
+}
+% --//--
+\newcommand{\paalaegBeOns}{
+Fried herring with onions and Dijon cream
+}
+\newcommand{\allergenPBeOns}{
+\algAe, \algCe, \algDe, \algGe, \algJe, \algOe
+}
+% --//--
+\newcommand{\paalaegCeOns}{
+Chicken a la waldorf salad
+}
+\newcommand{\allergenPCeOns}{
+\algCe, \algGe, \algHe, \algIe, \algJe
+}
+% Varmret Dansk
+\newcommand{\VarmAdOns}{
+Tortilla [1 stk.] m. pulled beef, piment, løg og gulerod. Hertil chili/ingefær dressing 
+}
+\newcommand{\allergenVAdOns}{
+\algA, \algG, \algO, \algP
+}
+% - gris
+\newcommand{\VarmumAdOns}{
+Tortilla [1 stk.] m. pulled beef, piment, løg og gulerod. Hertil chili/ingefær dressing 
+}
+\newcommand{\allergenVumAdOns}{
+\algA, \algG, \algO, \algP
+}
+% Vegetar 
+\newcommand{\VarmvegAdOns}{
+Tortilla m. "no meat", piment, løg og gulerod. Hertil chili/ingefær dressing 
+}
+\newcommand{\allergenVegAdOns}{
+\algA, \algF, \algG, \algO, \algP
+}
+% Varmret engelsk
+\newcommand{\VarmAeOns}{
+Tortilla [1 piece] with pulled beef, chilli, onion and carrot. Served with chilli/ginger dressing
+}
+\newcommand{\allergenVAeOns}{
+\algAe, \algGe, \algOe, \algPe
+}
+% - gris
+\newcommand{\VarmumAeOns}{
+Tortilla [1 piece] with pulled beef, chilli, onion and carrot. Served with chilli/ginger dressing
+}
+\newcommand{\allergenVumAeOns}{
+\algAe, \algGe, \algOe, \algPe
+}
+% Vegetar 
+\newcommand{\VarmvegAeOns}{
+Tortilla with no meat, chilli, onion and carrot. Served with chilli/ginger dressing
+}
+\newcommand{\allergenVegAeOns}{
+\algAe, \algFe, \algGe, \algOe, \algPe
+}
+% Onsdagskage dansk
+\newcommand{\onsdagskage}{
+Æblekage 
+}
+\newcommand{\allergenKage}{
+\algA, \algC, \algG
+}
+% Engelsk
+\newcommand{\onsdagskageE}{
+Sponge cake
+}
+\newcommand{\allergenKageE}{
+\algAe, \algCe, \algGe
+}
+% Torsdag
+% Salater dansk
+\newcommand{\salatAdTor}{
+Mediterransk blomkålssalat m. oliven, persille og salatostetern  
+}
+\newcommand{\allergenSAdTor}{
+\algG, \algP
+}
+% --//--
+\newcommand{\salatBdTor}{
+Thai nudelsalat 
+}
+\newcommand{\allergenSBdTor}{
+\algA, \algE, \algO, \algP
+}
+% Salater engelsk
+\newcommand{\salatAeTor}{
+Mediterranean cauliflower salad with olives, parsley and salad cheese cubes
+}
+\newcommand{\allergenSAeTor}{
+\algGe, \algPe
+}
+% --//--
+\newcommand{\salatBeTor}{
+Thai noodle salad
+} 
+\newcommand{\allergenSBeTor}{
+\algAe, \algEe, \algOe, \algPe
+}
+% Pålæg Dansk
+\newcommand{\paalaegAdTor}{
+Kalkun chorizo med grillet peberfrugt og aioli 
+}
+\newcommand{\allergenPAdTor}{
+\algC, \algF, \algG, \algJ, \algP
+}
+% --//--
+\newcommand{\paalaegBdTor}{
+Paté med cornichoner 
+}
+\newcommand{\allergenPBdTor}{
+\algO
+}
+% --//--
+\newcommand{\paalaegCdTor}{
+Torskerognssalat 
+}
+\newcommand{\allergenPCdTor}{
+\algC, \algD, \algG, \algJ, \algO
+}
+% Pålæg Engelsk
+\newcommand{\paalaegAeTor}{
+Turkey chorizo with grilled peppers and aioli
+}
+\newcommand{\allergenPAeTor}{
+\algCe, \algFe, \algGe, \algJe, \algPe
+}
+% --//--
+\newcommand{\paalaegBeTor}{
+Pate with gherkins
+}
+\newcommand{\allergenPBeTor}{
+\algOe
+}
+% --//--
+\newcommand{\paalaegCeTor}{
+Cod roe salad
+}
+\newcommand{\allergenPCeTor}{
+\algCe, \algDe, \algGe, \algJe, \algOe
+}
+% Varmret Dansk
+\newcommand{\VarmAdTor}{
+Kylling med pasta penne, svampe, æblecider, æble, løg, timian og hvidløg 
+}
+\newcommand{\allergenVAdTor}{
+\algA, \algG, \algO, \algP
+}
+% - gris
+\newcommand{\VarmumAdTor}{
+Kylling med pasta penne, svampe, æblecider, æble, løg, timian og hvidløg 
+}
+\newcommand{\allergenVumAdTor}{
+\algA, \algG, \algO, \algP
+}
+% Vegetar 
+\newcommand{\VarmvegAdTor}{
+No chicken chunks m. pasta, svampe, æblecider, æble, løg, timian \& hvidløg 
+}
+\newcommand{\allergenVegAdTor}{
+\algA, \algF, \algG, \algO, \algP
+}
+% Varmret engelsk
+\newcommand{\VarmAeTor}{
+Chicken with pasta penne, mushrooms, apple cider, apple, onion, thyme and garlic
+}
+\newcommand{\allergenVAeTor}{
+\algAe, \algGe, \algOe, \algPe
+}
+% - gris
+\newcommand{\VarmumAeTor}{
+Chicken with pasta penne, mushrooms, apple cider, apple, onion, thyme and garlic
+}
+\newcommand{\allergenVumAeTor}{
+\algAe, \algGe, \algOe, \algPe
+}
+% Vegetar 
+\newcommand{\VarmvegAeTor}{
+No chicken chunks with pasta, mushrooms, apple cider, apple, onion, thyme \& garlic
+}
+\newcommand{\allergenVegAeTor}{
+\algAe, \algFe, \algGe, \algOe, \algPe
+}
+
+% Fredag
+% Salater dansk
+\newcommand{\salatAdFre}{
+Bagt rodfrugtesalat m. timian \& honning 
+}
+\newcommand{\allergenSAdFre}{
+\algI
+}
+% --//--
+\newcommand{\salatBdFre}{
+Speltkerne tabouleh 
+}
+\newcommand{\allergenSBdFre}{
+\algA, \algO
+}
+% Salater engelsk
+\newcommand{\salatAeFre}{
+Baked root vegetable salad with thyme \& honey
+}
+\newcommand{\allergenSAeFre}{
+\algIe
+}
+% --//--
+\newcommand{\salatBeFre}{
+Spelt seed tabouleh
+} 
+\newcommand{\allergenSBeFre}{
+\algAe, \algOe
+}
+% Pålæg Dansk
+\newcommand{\paalaegAdFre}{
+Salami med mozzarellaperler, basilikum og soltørret tomat  
+}
+\newcommand{\allergenPAdFre}{
+\algG, \algP
+}
+% --//--
+\newcommand{\paalaegBdFre}{
+Sennepsbagt kylling med coleslaw 
+}
+\newcommand{\allergenPBdFre}{
+\algC, \algG, \algJ, \algP
+}
+% --//--
+\newcommand{\paalaegCdFre}{
+Tunsalat 
+}
+\newcommand{\allergenPCdFre}{
+\algC, \algD, \algG, \algJ, \algO
+}
+% Pålæg Engelsk
+\newcommand{\paalaegAeFre}{
+Salami with mozzarella pearls, basil and sun-dried tomato
+}
+\newcommand{\allergenPAeFre}{
+\algGe, \algPe
+}
+% --//--
+\newcommand{\paalaegBeFre}{
+Mustard baked chicken with coleslaw
+}
+\newcommand{\allergenPBeFre}{
+\algCe, \algGe, \algJe, \algPe
+}
+% --//--
+\newcommand{\paalaegCeFre}{
+Tuna salad
+}
+\newcommand{\allergenPCeFre}{
+\algCe, \algDe, \algGe, \algJe, \algOe
+}
+% Varmret Dansk
+\newcommand{\VarmAdFre}{
+Moussaka 
+}
+\newcommand{\allergenVAdFre}{
+\algG, \algI, \algO, \algP
+}
+% - gris
+\newcommand{\VarmumAdFre}{
+Moussaka 
+}
+\newcommand{\allergenVumAdFre}{
+\algG, \algI, \algO, \algP
+}
+% Vegetar 
+\newcommand{\VarmvegAdFre}{
+Grøntsagsmoussaka 
+}
+\newcommand{\allergenVegAdFre}{
+\algG, \algI, \algO, \algP
+}
+% Varmret engelsk
+\newcommand{\VarmAeFre}{
+Moussaka
+}
+\newcommand{\allergenVAeFre}{
+\algGe, \algIe, \algOe, \algPe
+}
+% - gris
+\newcommand{\VarmumAeFre}{
+Moussaka
+}
+\newcommand{\allergenVumAeFre}{
+\algGe, \algIe, \algOe, \algPe
+}
+% Vegetar 
+\newcommand{\VarmvegAeFre}{
+Vegetable moussaka
+}
+\newcommand{\allergenVegAeFre}{
+\algGe, \algIe, \algOe, \algPe
+}
+%
+% --//--||--\\--||--//--||--\\--||--//--||--\\--||--//--||--
+\title{Frokost Menu}
+
+\begin{document}
+
+\section*{\firma}
+
+\subsubsection*{\uge}
+\subsection*{Mandag}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{p{0.47\textwidth}||p{0.47\textwidth}}
+        \subsection*{Salater} & 
+        \subsection*{Salads} \\[\justering]
+        \salatAdMan \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenSAdMan}
+        & \salatAeMan \newline 
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenSAeMan}\\[\justeringB]
+       % & \\
+        \salatBdMan \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenSBdMan}
+        & \salatBeMan \newline 
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenSBeMan}\\[\justeringB]
+       % & \\
+        \salatekstra & \salatekstraE \\
+        \subsection*{Pålæg}  & 
+        \subsection*{Cold cuts} \\[\justering]
+        \paalaegAdMan \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenPAdMan} 
+        & \paalaegAeMan \newline 
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenPAeMan} \\[\justeringB]
+       % & \\
+        \paalaegBdMan \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenPBdMan}
+        & \paalaegBeMan \newline
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenPBeMan} \\[\justeringB]
+       % & \\ 
+        \paalaegCdMan \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenPCdMan}
+        & \paalaegCeMan \newline 
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenPCeMan}\\[\justeringB]
+       %  &  \\ 
+        \paalaegekstra & \paalaegekstraE \\
+        \subsection*{Varm Ret} & 
+        \subsection*{Hot Dish} \\[\justering]
+        \VarmAdMan \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenVAdMan}
+        & \VarmAeMan \newline 
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenVAeMan}\\
+       % & \\  
+        \subsection*{Varm Ret, uden Gris} & 
+        \subsection*{Hot Dish, Without Pork} \\[\justering]
+        \VarmumAdMan \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenVumAdMan}
+        & \VarmumAeMan \newline 
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenVumAeMan}\\
+        % & \\   
+ %       \subsection*{Varm Ret, Vegetar} & 
+ %       \subsection*{Hot Dish, Vagetarian} \\[\justering]
+ %       \VarmvegAdMan \newline 
+ %       \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenVegAdMan}
+ %       & \VarmvegAeMan \newline 
+ %       \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenVegAeMan}\\
+%         & \\           
+    \end{tabular}
+\end{table}
+
+\newpage %Mandag bliver Tirdag
+
+\section*{\firma}
+
+\subsubsection*{\uge}
+\subsection*{Tirsdag} % Tirsdag
+
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{p{0.47\textwidth}||p{0.47\textwidth}}
+        \subsection*{Salater} & 
+        \subsection*{Salads} \\[\justering]
+        \salatAdTir \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenSAdTir}
+        & \salatAeTir \newline
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenSAeTir}\\[\justeringB]
+      % & \\
+        \salatBdTir \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenSBdTir}
+        & \salatBeTir \newline
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenSBeTir}\\[\justeringB]
+       % & \\
+        \salatekstra & \salatekstraE \\
+        \subsection*{Pålæg} & 
+        \subsection*{Cold cuts} \\[\justering]
+        \paalaegAdTir \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenPAdTir}
+        & \paalaegAeTir \newline 
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenPAeTir}\\[\justeringB]
+       % & \\
+        \paalaegBdTir \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenPBdTir}
+        & \paalaegBeTir \newline 
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenPBeTir}\\[\justeringB]
+       % & \\ 
+        \paalaegCdTir \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenPCdTir}
+        & \paalaegCeTir \newline
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenPCeTir}\\[\justeringB]
+       % & \\ 
+        \paalaegekstra & \paalaegekstraE \\
+        \subsection*{Varm Ret} & 
+        \subsection*{Hot Dish} \\[\justering]
+        \VarmAdTir \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenVAdTir}
+        & \VarmAeTir \newline
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenVAeTir}\\
+       % & \\  
+        \subsection*{Varm Ret, uden Gris} & 
+        \subsection*{Hot Dish, Without Pork} \\[\justering]
+        \VarmumAdTir \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenVumAdTir}
+        & \VarmumAeTir \newline 
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenVumAeTir}\\
+       % & \\   
+{%    \subsection*{Varm Ret, Vegetar} & 
+ %   \subsection*{Hot Dish, Vagetarian} \\[\justering]
+ %       \VarmvegAdTir \newline 
+ %       \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenVegAdTir}
+ %       & \VarmvegAeTir \newline
+ %       \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenVegAeTir}\\
+}  % & \\           
+    \end{tabular}
+\end{table}
+
+\newpage % Tirsdag bliver Onsdag
+
+\section*{\firma}
+
+\subsubsection*{\uge}
+\subsection*{Onsdag} % Onsdag
+
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{p{0.47\textwidth}||p{0.47\textwidth}}
+        \subsection*{Salater} & 
+        \subsection*{Salads} \\[\justering]
+        \salatAdOns \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenSAdOns}
+        & \salatAeOns \newline
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenSAeOns}\\[\justeringB]
+      %   &  \\
+        \salatBdOns \newline
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenSBdOns} & 
+        \salatBeOns \newline
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenSBeOns} \\[\justeringB]
+      %   &  \\
+        \salatekstra & \salatekstraE \\
+        \subsection*{Pålæg} & 
+        \subsection*{Cold cuts} \\[\justering]
+        \paalaegAdOns \newline
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenPAdOns}
+        & \paalaegAeOns \newline
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenPAeOns}\\[\justeringB]
+       %  & \\
+        \paalaegBdOns \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenPBdOns}
+        & \paalaegBeOns \newline
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenPBeOns}\\[\justeringB]
+       % & \\ 
+        \paalaegCdOns \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenPCdOns}
+        & \paalaegCeOns \newline 
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenPCeOns}\\[\justeringB]
+       %  &  \\ 
+        \paalaegekstra & \paalaegekstraE \\
+        \subsection*{Varm Ret} & 
+        \subsection*{Hot Dish} \\[\justering]
+        \VarmAdOns \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenVAdOns}
+        & \VarmAeOns \newline 
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenVAeOns}\\
+      %  & \\  
+        \subsection*{Varm Ret, uden Gris} & 
+        \subsection*{Hot Dish, Without Pork} \\[\justering]
+        \VarmumAdOns \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenVumAdOns}
+        & \VarmumAeOns \newline
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenVumAeOns}\\
+       %  & \\   
+%        \subsection*{Varm Ret, Vegetar} & 
+%        \subsection*{Hot Dish, Vagetarian} \\[\justering]
+%        \VarmvegAdOns \newline 
+%        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenVegAdOns}
+%        & \VarmvegAeOns \newline 
+%        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenVegAeOns}\\
+      %   & \\
+        \subsection*{Onsdagskage} & 
+        \subsection*{Wednesday Cake} \\[\justering]
+        \onsdagskage \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenKage}
+        & \onsdagskageE \newline 
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenKageE}\\
+       %  & \\    
+    \end{tabular}
+\end{table}
+
+\newpage % Ondsdag bliver Torsdag
+
+\section*{\firma}
+\subsubsection*{\uge}
+\subsection*{Torsdag} % Torsdag
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{p{0.47\textwidth}||p{0.47\textwidth}}
+        \subsection*{Salater} & 
+        \subsection*{Salads} \\[\justering]
+        \salatAdTor \newline
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenSAdTor}
+        & \salatAeTor \newline 
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenSAeTor}\\[\justeringB]
+       % & \\
+        \salatBdTor \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenSBdTor}
+        & \salatBeTor \newline
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenSBeTor}\\[\justeringB]
+       % & \\
+        \salatekstra & \salatekstraE \\
+        \subsection*{Pålæg} & 
+        \subsection*{Cold cuts} \\[\justering]
+        \paalaegAdTor \newline
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenPAdTor}
+        & \paalaegAeTor \newline
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenPAeTor}\\[\justeringB]
+       % & \\
+        \paalaegBdTor \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenPBdTor}
+        & \paalaegBeTor \newline 
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenPBeTor}\\[\justeringB]
+       %  &  \\ 
+        \paalaegCdTor \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenPCdTor}
+        & \paalaegCeTor \newline 
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenPCeTor}\\[\justeringB]
+       %  & \\ 
+        \paalaegekstra & \paalaegekstraE \\
+        \subsection*{Varm Ret} & 
+        \subsection*{Hot Dish} \\[\justering]
+        \VarmAdTor \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenVAdTor}
+        & \VarmAeTor \newline 
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenVAeTor}\\
+      %  & \\  
+        \subsection*{Varm Ret, uden Gris} & 
+        \subsection*{Hot Dish, Without Pork}\\[\justering]
+        \VarmumAdTor \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenVumAdTor} 
+        & \VarmumAeTor \newline 
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenVumAeTor}\\
+      %  & \\   
+%        \subsection*{Varm Ret, Vegetar} & 
+%        \subsection*{Hot Dish, Vagetarian} \\[\justering]
+%        \VarmvegAdTor \newline 
+%        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenVegAdTor}
+%        & \VarmvegAeTor 
+%        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenVegAeTor}\\
+      %  & \\           
+    \end{tabular}
+\end{table}
+
+\newpage % Torsdag bliver Fredag
+
+{
+\centering\section*{\firma}
+
+\subsubsection*{\uge}
+\subsection*{Fredag} % Fredag
+}
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{p{0.47\textwidth}||p{0.47\textwidth}}
+        \subsection*{Salater} & 
+        \subsection*{Salads} \\[\justering]
+        \salatAdFre \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenSAdFre}
+        & \salatAeFre \newline 
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenSAeFre}\\[\justeringB]
+       % & \\
+        \salatBdFre \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenSBdFre}
+        & \salatBeFre \newline 
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenSBeFre}\\[\justeringB]
+       % & \\
+        \salatekstra & \salatekstraE \\
+        \subsection*{Pålæg} & 
+        \subsection*{Cold cuts} \\[\justering]
+        \paalaegAdFre \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenPAdFre}
+        & \paalaegAeFre \newline 
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenPAeFre}\\[\justeringB]
+      %  & \\
+        \paalaegBdFre \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenPBdFre}
+        & \paalaegBeFre \newline 
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenPBeFre}\\[\justeringB]
+      %   &  \\ 
+        \paalaegCdFre \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenPCdFre}
+        & \paalaegCeFre \newline 
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenPCeFre}\\[\justeringB]
+       %  &  \\ 
+        \paalaegekstra & \paalaegekstraE \\
+        \subsection*{Varm Ret} & 
+        \subsection*{Hot Dish} \\[\justering]
+        \VarmAdFre \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenVAdFre}
+        & \VarmAeFre \newline
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenVAeFre}\\
+       % & \\  
+        \subsection*{Varm Ret, uden Gris} & 
+        \subsection*{Hot Dish, Without Pork} \\[\justering]
+        \VarmumAdFre \newline 
+        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenVumAdFre}
+        & \VarmumAeFre \newline
+        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenVumAeFre}\\
+      %   & \\   
+%        \subsection*{Varm Ret, Vegetar} & 
+%        \subsection*{Hot Dish, Vagetarian} \\[\justering]
+%        \VarmvegAdFre \newline 
+%        \footnotesize\textit{Allegener} \footnotesize\textbf{\allergenVegAdFre} 
+%        & \VarmvegAeFre \newline 
+%        \footnotesize\textit{Allegens} \footnotesize\textbf{\allergenVegAeFre}\\
+      %  & \\           
+    \end{tabular}
+\end{table}
+
+\end{document}
