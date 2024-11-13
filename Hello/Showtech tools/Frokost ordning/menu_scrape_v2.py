@@ -1,7 +1,7 @@
 import re                           # RE for searching thorugh the gathered text
 from urllib.request import urlopen  # Urlopen for getting the text
 import deepl                        # Deepl for Api translation to english
-url = "https://kejserindens-gryder.dk/frokostordning/ugens-menu"
+url = "https://kejserindens-gryder.dk/frokost/ugens-menu"
 page = urlopen(url)                                     #page has the code for the website
 html = page.read().decode('cp1252','backslashreplace')  #html now has the raw text of the page
 listPattern = "<p.*Salater.*</p>"
@@ -343,6 +343,7 @@ day_menu(thursday, subSnip[8])
 day_menu(friday,   subSnip[9]) # 9 expectected 
 
 #clean the menus
+#monday.insert(13,"") #vegetar
 menu_cleaner(monday)
 
 #tuesday.insert(10,"Varm ret / minus gris")
@@ -384,7 +385,7 @@ overwrite_wednesday()
 overwrite_thursday()
 overwrite_friday()
 
-with open("template 39.txt", "a") as file: # Change week number to the correct week
+with open("template 48.txt", "a") as file: # Change week number to the correct week
     file.writelines(template)
 
 with open("menu snip.txt", "a") as file:
