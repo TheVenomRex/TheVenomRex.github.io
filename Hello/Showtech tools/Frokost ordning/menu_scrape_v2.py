@@ -354,13 +354,13 @@ menu_cleaner(tuesday)
 menu_cleaner(wednesday)
 menu_cleaner(thursday)
 
-#friday.insert(7,"samt hjemmebagt franskbrød og rugbrød")
-#friday.insert(8,"Varm ret")
-#friday.insert(9,"") #Clear
-#friday.insert(10,"Varm ret / minus gris")
-#friday.insert(11,"") #Clear
-#friday.insert(12,"Varm ret / vegetar")
-#friday.insert(13,"") #Clear
+friday.insert(7,"samt hjemmebagt franskbrød og rugbrød")
+friday.insert(8,"Varm ret")
+friday.insert(9,"Paprikagryde med vilde ris (1,7,15,16)") #Clear
+friday.insert(10,"Varm ret / minus gris")
+friday.insert(11,"Paprikagryde på kylling med vilde ris (1,7,15,16)") #Clear
+friday.insert(12,"Varm ret / vegetar")
+friday.insert(13,"Veggiegryde med vilde ris (1,6,7,15,16)") #Clear
 menu_cleaner(friday)
 
 #calling the function to write the algs
@@ -385,7 +385,7 @@ overwrite_wednesday()
 overwrite_thursday()
 overwrite_friday()
 
-with open("template 50.txt", "a") as file: # Change week number to the correct week
+with open("template 51.txt", "a") as file: # Change week number to the correct week
     file.writelines(template)
 
 with open("menu snip.txt", "a") as file:
