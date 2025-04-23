@@ -71,21 +71,32 @@ def menu_cleaner(menuDay): #standard claener
         print(menuDay + " Is missing data")
 
 #filling out the algs for every day
-def alg_fill(menuDay,dayAlgD,dayAlgE):
-    for  i in menuDay:
-        temp = re.findall(r'\d+(?!.*[(])',i)
-        if temp == []:
-            dayAlgD.extend(["N/A"])
-            dayAlgE.extend(["N/A"]) 
+import re
+
+def alg_fill(menuDay, dayAlgD, dayAlgE):
+    for i in menuDay:
+        # Capture numbers inside () and allow multiple numbers separated by commas
+        temp = re.findall(r'\(([\d,\s]+)\)', i)  
+
+        if not temp:  # If no allergens are found
+            dayAlgD.append("N/A")
+            dayAlgE.append("N/A")
         else:
+            tempAlg = []  # Store allergens in Danish
+            etempAlg = []  # Store allergens in English
+
             for j in temp:
-                tempAlg.extend([allAlgDansk[int(j)-1]])
-                etempAlg.extend([allAlgEnglish[int(j)-1]])
-            dayAlgD.extend([", ".join(tempAlg)])
-            dayAlgE.extend([", ".join(etempAlg)])
-        temp.clear()
-        tempAlg.clear()
-        etempAlg.clear()
+                allergens = j.split(",")  # Split numbers by comma
+                for num in allergens:
+                    num = num.strip()  # Remove spaces
+                    if num.isdigit():  # Ensure it's a valid number
+                        tempAlg.append(allAlgDansk[int(num) - 1])
+                        etempAlg.append(allAlgEnglish[int(num) - 1])
+
+            dayAlgD.append(", ".join(tempAlg) if tempAlg else "N/A")
+            dayAlgE.append(", ".join(etempAlg) if etempAlg else "N/A")
+
+
 
 #Translation by DeepL API, 
 auth_key = "d817f7ec-5e15-4662-9380-0efcae84f25f:fx"
@@ -348,9 +359,9 @@ day_menu(friday,   subSnip[9]) # 9 expectected
 menu_cleaner(monday)
 
 #tuesday.insert(10,"Varm ret / minus gris")
-#tuesday.insert(11,"")
+#tuesday.insert(11,"Kylling Danoise (1 stk.) med rabarber og syltet agurk (7)")
 #tuesday.insert(12,"Varm ret / vegetar")
-#tuesday.insert(13,"")
+#tuesday.insert(13,"'Beuf vegetare' med rabarber og syltet agurk (1,3,6,7,9)")
 menu_cleaner(tuesday)
 menu_cleaner(wednesday)
 menu_cleaner(thursday)
@@ -389,7 +400,7 @@ overwrite_wednesday()
 overwrite_thursday()
 overwrite_friday()
 
-with open("Template Y25 U-15.txt", "a") as file: # Change week number to the correct week
+with open("Template Y25 U-19.txt v2", "a") as file: # Change week number to the correct week
     file.writelines(template)
 
 with open("menu snip.txt", "a") as file:
